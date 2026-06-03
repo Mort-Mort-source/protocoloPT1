@@ -1,0 +1,58 @@
+\section{Introducción}
+
+\subsection{Contexto de la comunicación en entornos universitarios}
+
+La comunicación efectiva dentro de las instituciones de educación superior constituye un pilar fundamental para el desarrollo de actividades académicas, culturales y sociales. Diariamente, estudiantes, profesores y personal administrativo generan y consumen una gran cantidad de información: avisos de clase, cambios de horario, fechas de examen, convocatorias a eventos, formación de grupos de estudio, difusión de talleres, entre muchos otros mensajes. Sin embargo, la forma en que esta información se distribuye actualmente en la mayoría de las universidades —incluyendo la Universidad Autónoma Metropolitana (UAM)— dista de ser óptima.
+
+Diversos estudios han documentado que los estudiantes recurren de manera masiva a plataformas externas como \textit{WhatsApp}, \textit{Facebook}, \textit{Instagram}, \textit{Telegram} o el correo electrónico institucional para comunicarse y mantenerse informados \cite{gutierrez2017uso, bucheli2020whatsapp}. Estas herramientas, si bien son de fácil acceso y uso cotidiano, no fueron diseñadas para gestionar la comunicación estructurada y escalable de una comunidad universitaria. Como señala Gutiérrez (2017), el uso de aplicaciones de mensajería instantánea en el ámbito académico se ha dado de manera espontánea y no regulada, lo que genera tanto oportunidades como problemas de fragmentación y desinformación.
+
+\subsection{Problemática identificada}
+
+La dependencia de plataformas no especializadas produce múltiples efectos negativos:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Fragmentación de la información:} Los anuncios importantes suelen dispersarse en decenas de grupos de WhatsApp, páginas de Facebook o cadenas de correo. Un estudiante que no pertenece a un grupo específico puede perderse avisos relevantes sobre su curso o su carrera.
+    \item \textbf{Dificultad para descubrir contenido:} En plataformas como WhatsApp, los grupos son cerrados y requieren una invitación. Esto impide que los alumnos conozcan la existencia de comunidades de estudio, eventos culturales o asesorías abiertas \cite{bucheli2020whatsapp}.
+    \item \textbf{Riesgo de desinformación:} Al no existir mecanismos de verificación o moderación, cualquier usuario —incluso ajeno a la institución— puede publicar contenido falso o irrelevante. Esto afecta la credibilidad de la comunicación institucional.
+    \item \textbf{Baja efectividad del correo institucional:} Aunque formal y moderado, el correo electrónico suele ser revisado con poca frecuencia por los estudiantes, y los sistemas de notificaciones asociados son lentos o poco visibles.
+\end{itemize}
+
+Bucheli (2020) encontró, en un estudio realizado en la Universidad Autónoma del Estado de Hidalgo, que más del 80\% de los estudiantes utilizan WhatsApp para comunicarse con sus compañeros y profesores, pero al mismo tiempo reportan sentir “sobrecarga de información” y “estrés por la mezcla de temas personales y académicos”. Esta situación se replica en muchas universidades públicas mexicanas, incluida la UAM Cuajimalpa.
+
+\subsection{Insuficiencia de las soluciones existentes}
+
+Algunas universidades han implementado sistemas propios de gestión de aprendizaje (como Moodle, Blackboard, Ubicua o plataformas personalizadas). Estos sistemas, si bien son útiles para entregar tareas y consultar calificaciones, no están diseñados para la difusión ágil de notificaciones en tiempo real ni para la creación de canales comunitarios abiertos. Por otra parte, aplicaciones como \textit{Telegram} ofrecen canales públicos y notificaciones, pero su adopción no es homogénea en toda la comunidad universitaria y siguen siendo herramientas externas sin moderación o barreras de entrada adecuadas implicando una vulnerabilidad a la desinformación u agentes externos.
+
+En el ámbito de los sistemas distribuidos y las notificaciones en tiempo real, existen arquitecturas probadas como el modelo \textit{publish-subscribe} (pub-sub) que permite desacoplar a los productores de información de los consumidores, garantizando escalabilidad y entrega eficiente de eventos \cite{tarkoma2012publish, tanenbaum2023distributed}. Sin embargo, muy pocas plataformas universitarias han adoptado este tipo de arquitecturas para la comunicación cotidiana.
+
+\subsection{Propuesta de solución: Noti Uam}
+
+Ante este panorama, se propone el desarrollo de \textbf{Noti Uam}, una plataforma distribuida de comunicación y alertas comunitarias específicamente orientada a entornos universitarios. La plataforma se basa en una arquitectura \textit{publish-subscribe} (pub-sub) que permite:
+
+\begin{itemize}[leftmargin=*]
+    \item La creación de \textbf{canales temáticos} (por asignatura, por actividad deportiva, por área de interés) visibles para toda la comunidad.
+    \item La \textbf{suscripción voluntaria y abierta} a dichos canales, sin necesidad de invitaciones previas.
+    \item El envío de \textbf{notificaciones en tiempo real} a los dispositivos móviles de los usuarios suscritos.
+    \item Un sistema de autenticación seguro mediante JWT, que garantice que solo miembros de la comunidad universitaria puedan publicar (evitando spam o desinformación externa).
+\end{itemize}
+
+La plataforma será desarrollada como una \textbf{aplicación móvil multiplataforma} usando \textit{Flutter}, dado que los dispositivos móviles son el principal medio de acceso a internet entre los estudiantes. El \textit{backend} se implementará con \textit{Spring Boot} y \textit{Apache Kafka} para la gestión de eventos, mientras que el almacenamiento de datos se realizará con \textit{PostgreSQL} y \textit{Redis} para optimizar el rendimiento. Todo el sistema se contenerizará con \textit{Docker} para facilitar su despliegue y escalabilidad.
+
+\subsection{Contribución del trabajo}
+
+La principal contribución de este proyecto es proporcionar una solución tecnológica adaptada a las necesidades específicas de comunicación de la comunidad universitaria de la UAM Cuajimalpa, que:
+
+\begin{itemize}
+    \item Reduce la fragmentación informativa al centralizar los avisos en una sola aplicación.
+    \item Favorece el descubrimiento abierto de actividades académicas, recreativas y culturales.
+    \item Mejora la eficiencia de la comunicación institucional al ofrecer un canal directo y visible para los estudiantes.
+    \item Aumenta la seguridad y confiabilidad de la información al restringir la publicación a usuarios autenticados.
+    \item Ofrece notificaciones inmediatas basadas en una arquitectura distribuida robusta (pub-sub).
+    \item Incorpora principios de Interacción Humano-Computadora (IHC) para garantizar usabilidad y accesibilidad.
+\end{itemize}
+
+Además, desde el punto de vista académico, el proyecto permite aplicar y demostrar competencias en sistemas distribuidos, bases de datos, desarrollo móvil y metodologías de diseño centrado en el usuario.
+
+\subsection{Estructura del protocolo}
+
+El presente protocolo se organiza de la siguiente manera: después de esta introducción, el \textbf{Marco Teórico} (sección 2) expone los conceptos fundamentales de sistemas distribuidos, el modelo pub-sub, las tecnologías seleccionadas y los principios de IHC. El \textbf{Estado del Arte} (sección 3) revisa soluciones similares existentes y las compara. La sección 4 detalla los \textbf{objetivos} general y específicos. La sección 5 plantea la \textbf{hipótesis} de trabajo. La \textbf{Metodología} (sección 6) describe el enfoque incremental y las fases de desarrollo. Finalmente, la sección 7 presenta el \textbf{cronograma} tentativo y la sección 8 lista las referencias bibliográficas.

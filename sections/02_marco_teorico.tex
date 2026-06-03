@@ -1,0 +1,138 @@
+\section{Marco Teórico}
+
+El presente marco teórico expone los conceptos fundamentales necesarios para comprender y justificar las decisiones tecnológicas y de diseño de la plataforma \textbf{Noti Uam}. Se abordan, en primer lugar, los principios de los sistemas distribuidos y, en particular, el modelo de arquitectura \textit{publish-subscribe} (pub-sub). Posteriormente, se describen las tecnologías específicas seleccionadas para el desarrollo del \textit{backend}, la base de datos, la capa de mensajería y la aplicación móvil. Finalmente, se introducen los principios de Interacción Humano-Computadora (IHC) y los mecanismos de autenticación y seguridad.
+
+\subsection{Sistemas distribuidos: principios y paradigmas}
+
+Un \textbf{sistema distribuido} es aquel en el que componentes de software y hardware ubicados en equipos de red conectados se comunican y coordinan mediante el paso de mensajes, con el objetivo de compartir recursos y ofrecer servicios de manera unificada a los usuarios \cite{coulouris2011distributed}. Tanenbaum y Van Steen (2023) definen un sistema distribuido como “una colección de computadoras independientes que aparece ante sus usuarios como un solo sistema coherente”.
+
+Las propiedades deseables de los sistemas distribuidos incluyen:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Transparencia}: ocultar al usuario y al programador la complejidad de la distribución (ubicación, concurrencia, fallos, etc.).
+    \item \textbf{Escalabilidad}: capacidad de crecer en número de nodos o usuarios sin degradar el rendimiento.
+    \item \textbf{Tolerancia a fallos}: continuar operando, incluso si algunos componentes fallan.
+    \item \textbf{Desacoplamiento en tiempo y espacio}: los productores y consumidores de información no necesitan estar activos simultáneamente ni conocerse entre sí.
+\end{itemize}
+
+La última propiedad es particularmente relevante para sistemas de notificaciones como \textit{Noti Uam}, donde los emisores de avisos (estudiantes, profesores) y los receptores (suscriptores) operan de manera asíncrona y pueden estar desconectados en distintos momentos.
+
+\subsection{Arquitectura publish-subscribe (pub-sub)}
+
+El modelo \textbf{publish-subscribe} es un estilo arquitectónico para sistemas de comunicación basada en eventos \cite{tarkoma2012publish}. En este modelo, los productores (\textit{publishers}) generan eventos o mensajes y los publican en un \textit{broker} o intermediario sin conocer a los suscriptores. Los consumidores (\textit{subscribers}) expresan su interés en ciertos tipos de eventos (normalmente mediante filtros o canales) y el \textit{broker} se encarga de entregar los mensajes a todos los suscriptores relevantes.
+
+Las ventajas principales del modelo pub-sub son:
+
+\begin{itemize}
+    \item \textbf{Desacoplamiento espacial}: publicadores y suscriptores no necesitan saber la dirección o identidad de los demás.
+    \item \textbf{Desacoplamiento temporal}: no es necesario que ambas partes estén activas al mismo tiempo; el \textit{broker} almacena y reenvía los mensajes cuando el suscriptor esté disponible.
+    \item \textbf{Escalabilidad}: se pueden añadir nuevos nodos publicadores o suscriptores sin modificar la lógica central.
+\end{itemize}
+
+Estas características hacen de pub-sub una arquitectura ideal para sistemas de alertas y notificaciones en tiempo real, como el propuesto en este proyecto. Según Tarkoma (2012), las implementaciones modernas de pub-sub pueden manejar millones de eventos por segundo con latencias del orden de milisegundos.
+
+\subsection{Componentes tecnológicos del backend}
+
+\subsubsection{Apache Kafka}
+
+\textbf{Apache Kafka} es una plataforma distribuida de \textit{streaming} de eventos diseñada originalmente por LinkedIn. Se ha convertido en un estándar de facto para construir tuberías de datos en tiempo real y aplicaciones reactivas \cite{kafka2017streaming}. Kafka implementa un modelo de \textit{log distribuido} que combina las ventajas de pub-sub con almacenamiento duradero y alta capacidad de \textit{throughput}.
+
+En \textit{Noti Uam}, Kafka actuará como el \textit{broker} central de eventos. Los productores (API REST del backend) publicarán mensajes en \textit{topics} (equivalentes a canales temáticos) y los consumidores (servicio de notificaciones push) se suscribirán a esos \textit{topics} para enviar alertas a los dispositivos móviles. La naturaleza distribuida de Kafka permite escalar horizontalmente para atender a toda la comunidad universitaria.
+
+\subsubsection{Spring Boot}
+
+\textbf{Spring Boot} es un marco de trabajo de Java que simplifica la creación de aplicaciones basadas en el ecosistema Spring, proporcionando configuración automática y servidores embebidos (como Tomcat) \cite{spring2023boot}. Se utiliza ampliamente en la industria para desarrollar microservicios y \textit{backends} RESTful.
+
+En la plataforma propuesta, Spring Boot será el encargado de:
+
+\begin{itemize}
+    \item Exponer los endpoints de la API REST para gestionar usuarios, canales y publicaciones.
+    \item Integrarse con Kafka mediante la plantilla \textit{KafkaTemplate} para publicar eventos.
+    \item Implementar la lógica de autenticación y autorización mediante JWT.
+    \item Servir de puente entre la aplicación móvil y los servicios internos.
+\end{itemize}
+
+\subsubsection{PostgreSQL y Redis}
+
+El almacenamiento de datos persistentes se realizará con \textbf{PostgreSQL}, un sistema de gestión de bases de datos relacional y de código abierto, conocido por su fiabilidad, concurrencia y cumplimiento de ACID \cite{postgresql2024docs}. Se utilizará para almacenar usuarios, canales, suscripciones y publicaciones históricas.
+
+Por otro lado, \textbf{Redis} es un almacén de estructura de datos en memoria que actúa como base de datos, caché y \textit{message broker} ligero. En \textit{Noti Uam}, Redis se empleará para:
+
+\begin{itemize}
+    \item Cachear consultas frecuentes (por ejemplo, los canales más populares) y reducir la carga sobre PostgreSQL.
+    \item Gestionar información temporal, como sesiones activas y tokens de notificaciones push.
+    \item Almacenar contadores de eventos no leídos para cada usuario.
+\end{itemize}
+
+La combinación de PostgreSQL (persistencia) y Redis (rendimiento) es común en sistemas distribuidos con requisitos de baja latencia \cite{tanenbaum2023distributed}.
+
+\subsubsection{Contenerización con Docker}
+
+\textbf{Docker} permite empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles. Cada servicio (Spring Boot, Kafka, PostgreSQL, Redis) se ejecutará en su propio contenedor, definiendo un archivo \textit{docker-compose.yml} que orqueste la red y el orden de inicio. Esto facilita el despliegue tanto en entornos de desarrollo como en producción, garantizando la reproducibilidad del sistema.
+
+\subsection{Aplicación móvil multiplataforma: Flutter}
+
+\textbf{Flutter} es un kit de desarrollo de interfaz de usuario creado por Google que permite compilar aplicaciones nativas para iOS, Android, Web y escritorio desde una sola base de código en el lenguaje Dart \cite{flutter2024docs}. Su arquitectura basada en \textit{widgets} reactivos y su alto rendimiento (sin puente JavaScript) lo hacen adecuado para aplicaciones que requieren animaciones fluidas y notificaciones en tiempo real.
+
+En \textit{Noti Uam}, Flutter permitirá:
+
+\begin{itemize}
+    \item Desarrollar simultáneamente las versiones para Android e iOS, llegando a la mayoría de los estudiantes.
+    \item Integrar notificaciones push mediante \textit{Firebase Cloud Messaging} (FCM) o \textit{OneSignal}.
+    \item Consumir la API REST del backend mediante el paquete \textit{http} o \textit{dio}.
+    \item Implementar una interfaz moderna, accesible y centrada en la usabilidad, siguiendo los principios de IHC.
+\end{itemize}
+
+\subsection{Interacción Humano-Computadora (IHC)}
+
+La Interacción Humano-Computadora es una disciplina que estudia el diseño, evaluación e implementación de sistemas interactivos para el uso humano \cite{ihcamexcomp}. Uno de sus objetivos centrales es mejorar la \textbf{usabilidad}, definida por la norma ISO 9241-11 como “el grado en que un producto puede ser utilizado por usuarios específicos para alcanzar metas específicas con efectividad, eficiencia y satisfacción en un contexto de uso”.
+
+Para \textit{Noti Uam}, los principios de IHC guiarán:
+
+\begin{itemize}
+    \item El diseño de la navegación: permitir a los usuarios descubrir canales fácilmente, suscribirse y publicar avisos en pocos pasos.
+    \item La accesibilidad: cumplir con pautas como contraste suficiente, tamaños de texto ajustables y compatibilidad con lectores de pantalla (accesibilidad móvil).
+    \item La retroalimentación: notificaciones visuales y hápticas confirmatorias de acciones.
+    \item La prevención de errores: validación de formularios, mensajes claros y deshacer acciones.
+\end{itemize}
+
+Se realizarán pruebas de usabilidad con estudiantes reales durante el desarrollo, aplicando métodos como el \textit{System Usability Scale} (SUS) o pruebas de tareas con captura de tiempos.
+
+\subsection{Seguridad y autenticación: JWT}
+
+La plataforma debe garantizar que solo los miembros autenticados de la comunidad universitaria puedan publicar contenido (aunque cualquier persona pueda leer los canales públicos si así se configura). Para ello, se implementará autenticación basada en tokens JWT (\textit{JSON Web Tokens}) \cite{jwt2015rfc}.
+
+El flujo típico es:
+
+\begin{enumerate}
+    \item El usuario inicia sesión con credenciales institucionales (correo UAM y contraseña, o integración con SSO de la universidad).
+    \item El backend valida las credenciales y genera un token JWT firmado que contiene el identificador del usuario y sus roles.
+    \item El cliente (app móvil) envía el token en el encabezado \textit{Authorization} de cada petición.
+    \item El backend verifica la firma y los permisos antes de procesar la solicitud.
+\end{enumerate}
+
+Los tokens JWT son autónomos (no requieren almacenamiento en servidor), lo que facilita la escalabilidad horizontal. Su tiempo de expiración será corto (por ejemplo, 1 hora) y se complementará con un \textit{refresh token} para mejorar la experiencia de usuario.
+
+\subsection{Síntesis del marco teórico aplicado a Noti Uam}
+
+La combinación de los conceptos expuestos permite diseñar \textit{Noti Uam} como un sistema distribuido, desacoplado, escalable y seguro, orientado a la alta usabilidad. La siguiente tabla resume la correspondencia entre cada capa tecnológica y los principios teóricos:
+
+\begin{table}[H]
+\centering
+\caption{Correspondencia entre componentes y fundamentos teóricos}
+\label{tab:marco}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Componente} & \textbf{Fundamento teórico} \\
+\hline
+Apache Kafka & Modelo publish-subscribe, desacoplamiento temporal/espacial \\
+Spring Boot & Arquitectura RESTful, contenedor de servicios \\
+PostgreSQL + Redis & Persistencia ACID + caché en memoria \\
+Flutter & Desarrollo multiplataforma, IHC, notificaciones push \\
+JWT & Autenticación stateless, seguridad \\
+Docker & Contenerización, portabilidad, entornos reproducibles \\
+\hline
+\end{tabular}
+\end{table}
+
+Este marco teórico sustenta las decisiones técnicas que se detallan en la metodología y justifica la viabilidad del proyecto desde una perspectiva académica y profesional.

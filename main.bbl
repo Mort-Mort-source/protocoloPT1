@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{11}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -53,12 +53,17 @@
 \newblock
 
 
-\bibitem[Carrera and López(2023)]%
-        {tecnicanorte2023push}
-\bibfield{author}{\bibinfo{person}{Jhonatan Carrera} {and} \bibinfo{person}{Mariana López}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \emph{\bibinfo{title}{Implementation of a push notification system for academic events using Flutter and NestJS}}.
-\newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{Universidad Técnica del Norte}, \bibinfo{address}{Ibarra, Ecuador}.
+\bibitem[Castro and Rodríguez(2020)]%
+        {amexcomp2020ihc}
+\bibfield{editor}{\bibinfo{person}{Luis~A. Castro} {and} \bibinfo{person}{Marcela~D. Rodríguez}} (Eds.). \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Interacción Humano-Computadora y Aplicaciones en México} (\bibinfo{edition}{2nd} ed.)}.
+\newblock \bibinfo{publisher}{Academia Mexicana de Computación, A. C.}, \bibinfo{address}{México}.
 \newblock
+\showISBNx{978-607-98941-15}
+\urldef\tempurl%
+\url{https://amexcomp.mx/media/publicaciones/int-humano-comp-apps.pdf}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Coulouris et~al\mbox{.}(2011)]%
@@ -66,14 +71,6 @@
 \bibfield{author}{\bibinfo{person}{George Coulouris}, \bibinfo{person}{Jean Dollimore}, {and} \bibinfo{person}{Tim Kindberg}.} \bibinfo{year}{2011}\natexlab{}.
 \newblock \bibinfo{booktitle}{\emph{Distributed Systems: Concepts and Design} (\bibinfo{edition}{5th} ed.)}.
 \newblock \bibinfo{publisher}{Addison-Wesley}, \bibinfo{address}{Boston, MA}.
-\newblock
-
-
-\bibitem[de~Computación)(2018)]%
-        {ihcamexcomp}
-\bibfield{author}{\bibinfo{person}{AMexCOMP (Asociación~Mexicana de Computación)}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Interacción Humano-Computadora y Aplicaciones en México}}.
-\newblock \bibinfo{publisher}{Editorial AMexCOMP}, \bibinfo{address}{México D.F.}
 \newblock
 
 
@@ -85,14 +82,6 @@
 \newblock
 \newblock
 \shownote{Documentación oficial de PostgreSQL}.
-
-
-\bibitem[Gutiérrez and otros(2017)]%
-        {gutierrez2017uso}
-\bibfield{author}{\bibinfo{person}{Laura Gutiérrez} {and} \bibinfo{person}{otros}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Uso de WhatsApp en el ámbito académico universitario: ventajas y desventajas}.
-\newblock \bibinfo{journal}{\emph{Revista de Educación a Distancia (RED)}} \bibinfo{volume}{17}, \bibinfo{number}{54} (\bibinfo{year}{2017}), \bibinfo{pages}{1--23}.
-\newblock
 
 
 \bibitem[Jones et~al\mbox{.}(2015)]%

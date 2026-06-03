@@ -1,2 +1,11 @@
 1. https://www.scielo.org.mx/pdf/apertura/v12n2/2007-1094-apertura-12-02-74.pdf
 2. https://manning-content.s3.amazonaws.com/download/1/a0ced66-5289-49ad-8173-14903286befb/RiAch4sample.pdf
+3. https://ftp.utcluj.ro/pub/users/civan/CPD/3.RESURSE/6.Book_2012_Distributed%20systems%20_Couloris.pdf
+4. https://amexcomp.mx/media/publicaciones/int-humano-comp-apps.pdf
+5.postgre
+6. https://datatracker.ietf.org/doc/html/rfc5741#section-2
+7.kafka
+8.flutter
+9. springboot
+10. https://vowi.fsinf.at/images/b/bc/TU_Wien-Verteilte_Systeme_VO_%28G%C3%B6schka%29_-_Tannenbaum-distributed_systems_principles_and_paradigms_2nd_edition.pdf
+11.https://books.google.com.mx/books?id=iLGzgqi5JPgC&printsec=frontcover&hl=es#v=onepage&q&f=false

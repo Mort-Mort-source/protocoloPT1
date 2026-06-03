@@ -1,0 +1,89 @@
+\section{Hipótesis}
+
+\subsection{Planteamiento de la hipótesis general}
+
+Con base en el problema identificado —la fragmentación de la comunicación universitaria debido al uso de plataformas externas no especializadas— y en los fundamentos teóricos de los sistemas distribuidos y la arquitectura publish-subscribe \cite{tanenbaum2023distributed, tarkoma2012publish}, se formula la siguiente hipótesis:
+
+\begin{quote}
+\textit{“El desarrollo e implementación de una plataforma distribuida de comunicación basada en una arquitectura publish-subscribe (Noti Uam) reducirá significativamente los tiempos de difusión de información académica y comunitaria, al tiempo que aumentará la tasa de descubrimiento y suscripción a canales de interés por parte de los estudiantes, en comparación con el uso combinado de WhatsApp y correo institucional.”}
+\end{quote}
+
+\subsection{Subhipótesis asociadas}
+
+De la hipótesis general se derivan las siguientes subhipótesis, cada una vinculada a un objetivo específico y a los conceptos del marco teórico:
+
+\begin{enumerate}
+    \item \textbf{H1 – Arquitectura distribuida:} La implementación de un sistema basado en el modelo publish-subscribe con Apache Kafka permitirá una latencia significativamente menor en la entrega de notificaciones, incluso bajo una carga simulada de alto volumen por segundo, superando el rendimiento de las soluciones actuales (correo) que dependen de consultas periódicas o servidores centralizados \cite{kafka2017streaming}.
+    
+    \item \textbf{H2 – Canales y suscripciones:} La existencia de canales temáticos públicos y descubribles aumentará significativamente la participación de estudiantes en actividades extracurriculares y recreativas (eventos culturales, talleres, grupos de estudio, asesorias) en comparación con el modelo actual de grupos cerrados de WhatsApp, avisos por correo institucional entre otros.
+    
+    \item \textbf{H3 – Usabilidad y accesibilidad:} La aplicación móvil desarrollada con Flutter, siguiendo los principios de Interacción Humano-Computadora \cite{amexcomp2020ihc}, obtendrá una puntuación superior a 70 en la escala SUS (System Usability Scale) cuando sea evaluada por una muestra de al menos 15 estudiantes, lo que se considerará un nivel aceptable de usabilidad.
+    
+    \item \textbf{H4 – Autenticación y seguridad:} El uso de autenticación JWT \cite{jwt2015rfc} permitirá restringir la publicación de contenido exclusivamente a usuarios autenticados de la comunidad universitaria, reduciendo a cero los casos de spam o desinformación provenientes de cuentas externas durante el periodo de prueba piloto.
+\end{enumerate}
+
+\subsection{Justificación de la hipótesis}
+
+La hipótesis se sustenta en los siguientes argumentos:
+
+\begin{itemize}
+    \item \textbf{Eficiencia teórica del modelo pub-sub:} Como se expuso en el marco teórico, la arquitectura publish-subscribe desacopla a los productores y consumidores de información, permitiendo una entrega asíncrona y en tiempo real \cite{tarkoma2012publish}. Por tanto, es razonable esperar que supere a sistemas basados en consultas periódicas (pull) o en correo electrónico.
+    
+    \item \textbf{Evidencia empírica en entornos similares:} Aunque no existen estudios específicos sobre plataformas universitarias con pub-sub, diversos reportes técnicos han demostrado que las notificaciones push con arquitecturas distribuidas mejoran la inmediatez y la tasa de apertura de mensajes en aplicaciones móviles. El propio análisis de Bucheli (2020) confirma que los estudiantes prefieren canales inmediatos a los correos institucionales.
+    
+    \item \textbf{Principios de usabilidad probados:} El libro \textit{Interacción Humano-Computadora y Aplicaciones en México} \cite{amexcomp2020ihc} documenta que el diseño centrado en el usuario y las pruebas iterativas conducen a interfaces más efectivas. Por lo tanto, es plausible que Noti Uam alcance un nivel de usabilidad superior al de plataformas genéricas no adaptadas al contexto universitario.
+\end{itemize}
+
+\subsection{Validación de la hipótesis}
+
+Para comprobar o refutar la hipótesis, se llevarán a cabo las siguientes actividades durante la fase de pruebas (etapa 8 de la metodología):
+
+\begin{table}[H]
+\centering
+\caption{Plan de validación de hipótesis}
+\label{tab:validacion_hipotesis}
+\small
+\begin{tabular}{|p{2cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Hipótesis} & \textbf{Métrica / Indicador} & \textbf{Método de medición} \\
+\hline
+H1 (Arquitectura) & Latencia < 2 segundos en notificaciones & Pruebas de carga con Apache JMeter o herramienta similar \\
+\hline
+H2 (Canales) & Incremento del \% en participación & Encuestas pre y post implementación a estudiantes \\
+\hline
+H3 (Usabilidad) & Puntuación SUS > 70 & Cuestionario SUS aplicado a 15 estudiantes \\
+\hline
+H4 (Seguridad) & 0 incidentes de spam externo & Registro de logs y revisión de contenido publicado \\
+\hline
+\end{tabular}
+\end{table}
+
+Si los resultados confirman las subhipótesis, se aceptará la hipótesis general. En caso contrario, se analizarán las causas (por ejemplo, limitaciones técnicas, problemas de adopción, fallos de diseño) y se documentarán como lecciones aprendidas.
+
+\subsection{Relación con los objetivos y el marco teórico}
+
+La siguiente tabla muestra cómo cada hipótesis se conecta con los objetivos específicos y los conceptos del marco teórico:
+
+\begin{table}[H]
+\centering
+\caption{Correspondencia entre hipótesis, objetivos y marco teórico}
+\label{tab:hipotesis_objetivos}
+\small
+\begin{tabular}{|p{1.2cm}|p{3cm}|p{4cm}|}
+\hline
+\textbf{Hipótesis} & \textbf{Objetivo específico relacionado} & \textbf{Concepto del marco teórico} \\
+\hline
+H1 & 1. Arquitectura distribuida & Pub-sub, Kafka \cite{kafka2017streaming} \\
+\hline
+H2 & 2. Canales y suscripciones & Descubrimiento de información \cite{bucheli2020whatsapp} \\
+\hline
+H3 & 3. Aplicación móvil & IHC, usabilidad \cite{amexcomp2020ihc} \\
+\hline
+H4 & 2. Autenticación JWT & Seguridad, JWT \cite{jwt2015rfc} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Alcance y limitaciones de la hipótesis}
+
+La hipótesis se formula dentro del contexto específico de la UAM Cuajimalpa y con un prototipo funcional desarrollado en el marco de un proyecto terminal. No se pretende generalizar los resultados a cualquier universidad sin estudios adicionales. Asimismo, la validación dependerá de la colaboración voluntaria de estudiantes y profesores durante las pruebas piloto, lo que podría introducir sesgos de muestra. Se documentarán estas limitaciones en el reporte final.

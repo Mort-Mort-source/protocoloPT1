@@ -1,0 +1,74 @@
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+Desarrollar una plataforma distribuida de difusión universitaria basada en una arquitectura \textit{publish-subscribe} (pub-sub) que permita a estudiantes, profesores y coordinación académica publicar y recibir notificaciones en tiempo real mediante canales de suscripción orientados a la alta usabilidad y al descubrimiento abierto de información dentro de la comunidad universitaria.
+
+La plataforma será desarrollada como una aplicación móvil, debido a que los dispositivos móviles representan actualmente el principal medio de acceso a herramientas digitales y comunicación entre estudiantes.
+
+\subsection{Objetivos específicos}
+
+A partir del objetivo general, se definen los siguientes objetivos específicos, cada uno asociado a un conjunto de actividades técnicas y a las tecnologías seleccionadas en el marco teórico \cite{tanenbaum2023distributed, tarkoma2012publish}:
+
+\begin{enumerate}
+    \item \textbf{Diseñar una arquitectura distribuida} basada en el modelo \textit{publish-subscribe} para la gestión escalable de eventos y notificaciones en tiempo real, utilizando \textit{Spring Boot} para el desarrollo del \textit{backend}, \textit{Apache Kafka} para la distribución de eventos y \textit{Docker} para la contenerización y despliegue de servicios \cite{kafka2017streaming, spring2023boot}.
+    
+    \item \textbf{Implementar un sistema de canales y suscripciones} que permita la difusión y descubrimiento de información académica, cultural y comunitaria, utilizando \textit{PostgreSQL} para el almacenamiento de datos, \textit{Redis} para optimización y manejo de información temporal \cite{postgresql2024docs}, y \textit{JWT} para autenticación segura de usuarios \cite{jwt2015rfc}.
+    
+    \item \textbf{Desarrollar una aplicación móvil multiplataforma} utilizando \textit{Flutter} para la interfaz móvil y el envío de notificaciones push, priorizando principios de usabilidad, accesibilidad y rapidez de interacción orientados al entorno universitario \cite{flutter2024docs, amexcomp2020ihc}.
+\end{enumerate}
+
+\subsection{Alcance y entregables}
+
+Al finalizar el proyecto, se obtendrán los siguientes entregables:
+
+\begin{itemize}
+    \item Un \textit{backend} funcional desplegable mediante contenedores Docker, que exponga una API REST para la gestión de usuarios, canales, publicaciones y suscripciones.
+    \item Un sistema de eventos basado en Apache Kafka que gestione las notificaciones en tiempo real.
+    \item Una base de datos PostgreSQL con el modelo relacional para almacenamiento persistente, complementada con Redis para caché.
+    \item Una aplicación móvil desarrollada en Flutter para Android e iOS que permita:
+    \begin{itemize}
+        \item Registro e inicio de sesión mediante autenticación JWT.
+        \item Creación y administración de canales temáticos.
+        \item Suscripción a canales públicos y recepción de notificaciones push.
+        \item Publicación de avisos dentro de los canales.
+        \item Búsqueda y descubrimiento de canales por categoría o palabra clave.
+    \end{itemize}
+    \item Documentación técnica del sistema (diagramas de arquitectura, manual de instalación, guía de usuario).
+    \item Reporte final del proyecto que incluya resultados de pruebas de usabilidad y rendimiento.
+\end{itemize}
+
+\subsection{Relación con el marco teórico}
+
+Cada objetivo específico se fundamenta en los conceptos expuestos en el marco teórico. La siguiente tabla muestra dicha correspondencia:
+
+\begin{table}[H]
+\centering
+\caption{Correspondencia entre objetivos específicos y fundamentos teóricos}
+\label{tab:objetivos_marco}
+\small
+\begin{tabular}{|p{4cm}|p{4cm}|}
+\hline
+\textbf{Objetivo específico} & \textbf{Fundamento teórico} \\
+\hline
+1. Arquitectura distribuida pub-sub & Modelo publish-subscribe \cite{tarkoma2012publish}, sistemas distribuidos \cite{tanenbaum2023distributed}, Spring Boot \cite{spring2023boot}, Kafka \cite{kafka2017streaming} \\
+\hline
+2. Canales, suscripciones y autenticación & Persistencia con PostgreSQL \cite{postgresql2024docs}, caché con Redis, autenticación JWT \cite{jwt2015rfc} \\
+\hline
+3. Aplicación móvil y usabilidad & Flutter \cite{flutter2024docs}, principios de Interacción Humano-Computadora \cite{amexcomp2020ihc} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Indicadores de éxito}
+
+Para evaluar el cumplimiento de los objetivos, se definen los siguientes indicadores:
+
+\begin{itemize}
+    \item \textbf{Funcionalidad completa:} La plataforma debe implementar todas las características listadas en el alcance (canales, suscripciones, notificaciones push, autenticación).
+    \item \textbf{Rendimiento:} El sistema debe ser capaz de manejar altos volúmenes de tráfico con baja latencia.
+    \item \textbf{Usabilidad:} La aplicación móvil debe obtener una puntuación superior a 70 en la escala SUS (System Usability Scale) tras pruebas con al menos 15 estudiantes.
+    \item \textbf{Despliegue reproducible:} El sistema completo debe poder levantarse en un entorno limpio usando únicamente el comando \texttt{docker-compose up}.
+\end{itemize}
+
+Estos objetivos e indicadores guiarán el desarrollo incremental descrito en la metodología (sección 6).

@@ -1,0 +1,103 @@
+\section{Estado del Arte}
+
+\subsection{Introducción}
+
+El Estado del Arte tiene como objetivo revisar y analizar las soluciones existentes —tanto generales como específicas— que abordan problemáticas similares a las que motivan el desarrollo de \textbf{Noti Uam}. Este análisis permite identificar las fortalezas y limitaciones de cada enfoque, así como detectar áreas de oportunidad que justifiquen una nueva propuesta. Al final de la sección se presenta una tabla comparativa que resume las características clave de las soluciones revisadas, y se extraen conclusiones que orientan el diseño de la plataforma propuesta.
+
+\subsection{Soluciones generales de mensajería y notificaciones}
+
+\subsubsection{WhatsApp}
+
+WhatsApp es la aplicación de mensajería instantánea más utilizada en el mundo, y también la más adoptada de manera informal en entornos universitarios \cite{bucheli2020whatsapp}. Su funcionamiento se basa en grupos cerrados (con límite de participantes y necesidad de invitación) y en la difusión de mensajes uno a uno o en listas de difusión. Si bien es eficaz para la comunicación rápida entre grupos pequeños, presenta limitaciones graves para el ámbito universitario:
+
+\begin{itemize}
+    \item \textbf{Falta de descubrimiento:} Los estudiantes no pueden encontrar grupos temáticos (por ejemplo, “Taller de programación” o “Eventos culturales”) a menos que un miembro los invite.
+    \item \textbf{Mezcla de contextos:} Los chats personales y académicos se entremezclan, generando sobrecarga de información y distracción.
+    \item \textbf{Inexistencia de arquitectura distribuida orientada a eventos:} WhatsApp no ofrece canales temáticos persistentes ni un modelo de suscripción abierta, y sus notificaciones no son personalizables por tema dentro de la universidad.
+\end{itemize}
+
+Por estas razones, a pesar de su popularidad, WhatsApp no satisface los requisitos de una plataforma de comunicación universitaria abierta, escalable y enfocada en la difusión institucional.
+
+\subsubsection{Telegram}
+
+Telegram ofrece una aproximación más cercana a lo que se necesita. Introduce el concepto de \textbf{canales} (unidireccionales, para difusión) y \textbf{supergrupos} (con hasta 200 mil miembros). Los canales pueden ser públicos y descubribles mediante un enlace o búsqueda. Además, cuenta con un sistema de bots que podría extender funcionalidades.
+
+Sin embargo, Telegram sigue siendo una plataforma externa a la institución, no integrada con los servicios de autenticación universitarios. Cualquier persona puede crear canales y difundir información, lo que abre la puerta a desinformación o spam. Tampoco ofrece una arquitectura de publicación-suscripción (pub-sub) nativa para desarrolladores, ni mecanismos de notificaciones basados en eventos académicos estructurados (como cambios de horario o fechas de examen). Por tanto, aunque es superior a WhatsApp en cuanto a apertura, no está diseñada específicamente para el contexto universitario.
+
+\subsubsection{Slack y Discord}
+
+Slack y Discord son plataformas de colaboración por equipos que organizan la comunicación en \textit{workspaces}, canales y mensajes directos. Slack se orienta a entornos profesionales y Discord a comunidades de juegos, aunque ambas se utilizan cada vez más en educación. Permiten la integración con servicios externos mediante webhooks y bots.
+
+Sus desventajas para el proyecto son:
+
+\begin{itemize}
+    \item Requieren que un administrador cree el espacio y los canales, lo cual no es ágil para una universidad completa.
+    \item La búsqueda y descubrimiento de canales públicos está limitada al espacio de trabajo.
+    \item No están diseñadas para la difusión masiva de notificaciones push con alta prioridad (aunque lo soportan).
+    \item La autenticación y el control de acceso requieren configuraciones adicionales para vincularse con cuentas institucionales.
+\end{itemize}
+
+A pesar de que Slack y Discord son herramientas robustas, su adopción en una universidad implicaría una migración forzada de toda la comunidad, a una plataforma no institucional. Además, no resuelven el problema de la fragmentación entre múltiples plataformas.
+
+\subsection{Soluciones específicas para entornos universitarios}
+
+\subsubsection{Plataformas de gestión de aprendizaje (LMS)}
+
+Los sistemas como Moodle, Blackboard o Ubicua ofrecen módulos de notificaciones y foros. Sin embargo, su enfoque principal es la gestión de cursos, tareas y calificaciones, no la comunicación comunitaria abierta. Las notificaciones suelen ser por correo electrónico o mediante paneles internos, y rara vez utilizan una arquitectura pub-sub en tiempo real. Además, suelen ser pesadas y poco ágiles para la difusión de eventos culturales o actividades extracurriculares. Como señala Bucheli (2020), los estudiantes no revisan con frecuencia los foros de los LMS, prefiriendo herramientas más inmediatas.
+
+\subsubsection{Sistemas de notificaciones push en proyectos académicos}
+
+En la literatura técnica se pueden encontrar diversos proyectos y prototipos que exploran el uso de notificaciones push en contextos educativos o de servicios. Por ejemplo, el análisis de la tecnología push para notificar eventos y mensajería grupal ha demostrado que la combinación de servicios como Firebase Cloud Messaging con una arquitectura cliente-servidor es efectiva para este tipo de aplicaciones. Sin embargo, estos trabajos suelen centrarse en casos de uso muy específicos (transporte escolar, eventos aislados) y no en una plataforma de comunicación comunitaria abierta con canales temáticos y arquitectura pub-sub distribuida. Tampoco incorporan principios de Interacción Humano-Computadora (IHC) de manera explícita \cite{amexcomp2020ihc}.
+
+\subsubsection{Plataformas universitarias existentes: el caso de UAM App}
+
+La Universidad Autónoma Metropolitana ha puesto a disposición de su comunidad una aplicación móvil institucional denominada \textbf{UAM App}, cuyas funcionalidades se describen en el sitio oficial \url{https://www.uam.mx/appuam}. De acuerdo con esta documentación, la aplicación permite a los profesores consultar horarios, cursos impartidos, Unidades de Enseñanza-Aprendizaje (UEA) y el calendario de evaluaciones. Para los alumnos, ofrece acceso a datos escolares, horarios, historial académico, UEA programadas e historial de pagos. Adicionalmente, muestra información general como el calendario escolar y diversos reglamentos universitarios.
+
+Si bien UAM App cumple una función valiosa como canal de consulta administrativa y académica, su diseño no aborda la problemática de la comunicación comunitaria en tiempo real. Se trata de una herramienta predominantemente informativa y unidireccional, que no permite:
+
+\begin{itemize}
+    \item La creación de canales temáticos por parte de los propios estudiantes o profesores.
+    \item Un sistema de suscripción abierta a comunidades de interés (grupos de estudio, eventos culturales, torneos deportivos).
+    \item La publicación y difusión de avisos en tiempo real mediante una arquitectura de eventos.
+\end{itemize}
+
+Adicionalmente, se ha observado que la aplicación ya no se encuentra disponible en las tiendas oficiales de aplicaciones (Play Store), lo que limita su acceso y actualización. Por tanto, UAM App no satisface la necesidad identificada en este proyecto, lo que refuerza la pertinencia de desarrollar una plataforma específica como \textbf{Noti Uam}.
+\subsection{Tabla comparativa}
+
+A continuación se presenta una tabla que compara las soluciones analizadas según criterios relevantes para el proyecto: apertura de canales, modelo de notificaciones, arquitectura subyacente, usabilidad reportada y capacidad de integración institucional.
+
+\begin{table}[H]
+\centering
+\caption{Comparación de soluciones existentes}
+\label{tab:comparativa}
+\small
+\begin{tabular}{|p{1.4cm}|p{1.8cm}|p{1.5cm}|p{1.8cm}|p{1.8cm}|}
+\hline
+\textbf{Solución} & \textbf{Canales abiertos} & \textbf{Notificaciones en tiempo real} & \textbf{Arquitectura distribuida} & \textbf{Integración institucional} \\
+\hline
+WhatsApp & No (solo grupos cerrados) & Sí (push) & Centralizada (servidores de Meta) & No \\
+\hline
+Telegram & Sí (canales públicos) & Sí (push) & Centralizada (servidores de Telegram) & Parcial (bots) \\
+\hline
+Slack/Discord & Parcial (dentro del workspace) & Sí & Centralizada & No \\
+\hline
+Moodle & No (foros internos) & No (correo o consulta) & Monolítica & Sí (LDAP, SSO) \\
+\hline
+Apps institucionales & No (avisos unidireccionales) & Parcial (pull o push básico) & Variable & Sí \\
+\hline
+\textbf{Noti Uam (propuesta)} & \textbf{Sí (canales temáticos públicos)} & \textbf{Sí (pub-sub con Kafka)} & \textbf{Distribuida (microservicios)} & \textbf{Sí (JWT, SSO planeado)} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Crítica y conclusiones del Estado del Arte}
+
+Del análisis anterior se extraen las siguientes conclusiones:
+
+\begin{enumerate}
+    \item \textbf{Ninguna de las soluciones generales} (WhatsApp, Telegram, Slack) está diseñada específicamente para el contexto universitario, y todas dependen de servidores externos fuera del control de la institución, lo que plantea riesgos de privacidad.
+    \item \textbf{Las plataformas LMS y las apps institucionales} actuales no ofrecen un modelo de comunicación comunitaria abierta, con canales creados por los usuarios y descubrimiento autónomo. Su arquitectura generalmente no está basada en pub-sub, lo que limita la inmediatez de las notificaciones.
+    \item \textbf{Existe un vacío evidente} que justifica el desarrollo de \textit{Noti Uam}: una plataforma propia de la universidad, basada en estándares abiertos y tecnologías modernas (Kafka, Spring Boot, Flutter), que ofrezca tanto la inmediatez de las notificaciones push como la apertura y organización de los canales temáticos, todo ello con un fuerte énfasis en la usabilidad y la accesibilidad \cite{amexcomp2020ihc}.
+\end{enumerate}
+
+Por tanto, el proyecto \textbf{Noti Uam} no solo es pertinente, sino que constituye una contribución original y necesaria para mejorar la comunicación en la UAM Cuajimalpa, al tiempo que sirve como caso de estudio aplicado de sistemas distribuidos e interacción humano-computadora.

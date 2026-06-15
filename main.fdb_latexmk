@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1780471106.61726 "main.aux" "main.bbl" "main" 1780471215.71333 0
+["bibtex main"] 1781519232.24819 "main.aux" "main.bbl" "main" 1781519592.66873 0
   "./references.bib" 1780465443.76475 3261 da2dd403edb8988979be45252863cb93 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format.bst" 1680299675 90332 18dc4e5c9b5c2ddd337e9f97727d04f1 ""
-  "main.aux" 1780471215.44561 10137 0418cde750965cf5e146873dacf1b4fd "pdflatex"
+  "main.aux" 1781519592.426 14357 ea57d5227f57427dbd6429da504518fa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1780471214.32881 "/home/mort/Escritorio/protocoloPT1/main.tex" "main.pdf" "main" 1780471215.71348 0
+["pdflatex"] 1781519591.04676 "/home/mort/Escritorio/protocoloPT1/main.tex" "main.pdf" "main" 1781519592.66888 0
   "/etc/texmf/web2c/texmf.cnf" 1779767773.16605 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mort/Escritorio/protocoloPT1/main.tex" 1780450790.83572 6017 5eec0438d5a484796b01f2494d030cb8 ""
+  "/home/mort/Escritorio/protocoloPT1/main.tex" 1781518425.8879 6017 5eec0438d5a484796b01f2494d030cb8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc" 1558214095 7693 0f2dce6d313c82989ec3a67fc24df2a0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -274,17 +274,21 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779767785.14574 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779767847 8213856 c3ffe4c0207d7b97d0cecdeb75e921f3 ""
-  "imagenes/logo_uam.png" 1780384645.67777 273980 0cb6722b69804f2aedd31f9eba266c73 ""
-  "main.aux" 1780471215.44561 10137 0418cde750965cf5e146873dacf1b4fd "pdflatex"
-  "main.bbl" 1780471106.68065 6162 c5dfa2555e066b4cb8b4eaa50926abb7 "bibtex main"
-  "main.out" 1780471215.44661 8246 9d55736b810f8fa8798f013bc226e1d8 "pdflatex"
-  "main.tex" 1780450790.83572 6017 5eec0438d5a484796b01f2494d030cb8 ""
+  "imagenes/actividades_usabilidad.png" 1781512659.89058 8641 eb9940c82acdd95bb452981b124d25c0 ""
+  "imagenes/arquitectura_componentes.png" 1781512113.15089 20055 72bfae3b6e14f1338c88c7385af5c2ff ""
+  "imagenes/logo_uam.png" 1779645535.52926 273980 0cb6722b69804f2aedd31f9eba266c73 ""
+  "imagenes/metodologia_flujo.png" 1781517132.93674 159164 6be77072ee1b8ce687a1b994cd37b0af ""
+  "imagenes/secuencia_publicacion.png" 1781512525.36851 14072 b549166d479a954dc70cccbdc2187645 ""
+  "main.aux" 1781519592.426 14357 ea57d5227f57427dbd6429da504518fa "pdflatex"
+  "main.bbl" 1781519232.31109 6162 c5dfa2555e066b4cb8b4eaa50926abb7 "bibtex main"
+  "main.out" 1781519592.427 9991 67644564d381af655aab53bbdc08750b "pdflatex"
+  "main.tex" 1781518425.8879 6017 5eec0438d5a484796b01f2494d030cb8 ""
   "sections/01_introduccion.tex" 1780466271.18266 7387 fb8d108deff3839868cab699beccdecf ""
   "sections/02_marco_teorico.tex" 1780466971.5284 11545 0073fa7f1206e744a5b5d56a71fe72d3 ""
   "sections/03_estado_del_arte.tex" 1780468655.91879 10341 dfc561915e6de9d491d09af1c1c07a78 ""
   "sections/04_objetivos.tex" 1780470345.87854 5281 fd3720dd939e4297e0a83cb0f8432df4 ""
   "sections/05_hipotesis.tex" 1780471214.13038 6640 5c49456a1a61fc87fb276c564576fdb8 ""
-  "sections/06_metodologia.tex" 1780390390.94548 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "sections/06_metodologia.tex" 1781519590.84362 15170 5e5eec8ffd16418b5624c7b8b8f1e600 ""
   "sections/07_cronograma.tex" 1780390418.83885 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "main.aux"

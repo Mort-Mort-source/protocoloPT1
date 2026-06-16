@@ -37,7 +37,7 @@ A continuación se describen las nueve fases que componen la metodología. Para 
             \item Diseñar la estructura de datos en Redis (sesiones, caché de canales populares).
         \end{enumerate}
     \item \textbf{Entregables}: Diagrama de arquitectura, especificación OpenAPI, modelo relacional (SQL DDL), plan de índices.
-    \item \textbf{Herramientas}: PlantUML, Swagger Editor, pgModeler.
+    \item \textbf{Herramientas}: PlantUML, Swagger.
     \item \textbf{Criterios de aceptación}: El modelo debe cumplir con 3ª forma normal; la arquitectura debe ser revisada y aprobada por el asesor.
     \item \textbf{Duración}: 3 semanas.
 \end{itemize}
@@ -53,7 +53,7 @@ A continuación se describen las nueve fases que componen la metodología. Para 
             \item Establecer red interna entre servicios.
         \end{enumerate}
     \item \textbf{Entregables}: Repositorio Git con \texttt{docker-compose.yml} y Dockerfiles; script de inicio.
-    \item \textbf{Herramientas}: Docker, Docker Compose, Git.
+    \item \textbf{Herramientas}: Docker, Docker Compose, Git/GitHub.
     \item \textbf{Criterios de aceptación}: Ejecutar \texttt{docker-compose up} debe levantar todos los servicios sin errores y comunicarse entre sí.
     \item \textbf{Duración}: 2 semanas.
 \end{itemize}
@@ -69,7 +69,7 @@ A continuación se describen las nueve fases que componen la metodología. Para 
             \item Integrar JWT para proteger endpoints.
         \end{enumerate}
     \item \textbf{Entregables}: Código fuente del backend (Java), pruebas unitarias (JUnit), colección de Postman para pruebas de API.
-    \item \textbf{Herramientas}: IntelliJ IDEA, Maven, Spring Boot 3.x, Kafka Client.
+    \item \textbf{Herramientas}: IntelliJ IDEA/Visual Studio Code, Maven, Spring Boot, Kafka Client.
     \item \textbf{Criterios de aceptación}: Todos los endpoints deben responder correctamente y las pruebas unitarias cubrir al menos el 70\% de las clases críticas.
     \item \textbf{Duración}: 6 semanas.
 \end{itemize}
@@ -86,7 +86,7 @@ A continuación se describen las nueve fases que componen la metodología. Para 
         \end{enumerate}
     \item \textbf{Entregables}: Scripts SQL, configuración de Redis en Spring Boot (CacheManager), pruebas de rendimiento con 100 consultas concurrentes.
     \item \textbf{Herramientas}: pgAdmin, Redis Insight, JMeter (para pruebas iniciales).
-    \item \textbf{Criterios de aceptación}: Las consultas de listado de canales deben ejecutarse en menos de 200 ms con caché habilitada.
+    \item \textbf{Criterios de aceptación}: Las consultas de listado de canales deben ejecutarse de manera responsiva, acorde a los tiempos de respuesta definidos.
     \item \textbf{Duración}: 3 semanas.
 \end{itemize}
 
@@ -117,9 +117,9 @@ A continuación se describen las nueve fases que componen la metodología. Para 
             \item Realizar pruebas de extremo a extremo (E2E) con un usuario simulado que crea un canal, publica y recibe notificación.
             \item Corregir errores detectados.
         \end{enumerate}
-    \item \textbf{Entregables}: Reporte de pruebas de integración, log de errores corregidos.
+    \item \textbf{Entregables}: Reporte de pruebas de integración, reporte de errores, log de errores corregidos.
     \item \textbf{Herramientas}: Postman, Newman (línea de comandos), Docker Compose.
-    \item \textbf{Criterios de aceptación}: El 100\% de los casos de prueba definidos en la fase 1 deben pasar.
+    \item \textbf{Criterios de aceptación}: El 100\% de los casos de prueba definidos en la fase 1 (vea sección 6.2.1) deben ser cubiertos de manera exitosa.
     \item \textbf{Duración}: 3 semanas.
 \end{itemize}
 
@@ -128,7 +128,6 @@ A continuación se describen las nueve fases que componen la metodología. Para 
     \item \textbf{Objetivo}: Evaluar la experiencia de usuario y la capacidad de carga del sistema.
     \item \textbf{Actividades}:
         \begin{enumerate}
-            \item Realizar pruebas de carga con JMeter: simular 500, 1000 y 1500 usuarios concurrentes publicando y recibiendo notificaciones.
             \item Medir latencia de Kafka y tiempo de entrega de notificaciones push.
             \item Aplicar el cuestionario SUS a 15 estudiantes (prueba de usabilidad).
             \item Observar a 5 usuarios mientras realizan tareas típicas (crear canal, suscribirse, publicar) y registrar tiempos y errores.
@@ -141,28 +140,28 @@ A continuación se describen las nueve fases que componen la metodología. Para 
 
 \subsubsection{Fase 9: Documentación, análisis final y presentación}
 \begin{itemize}
-    \item \textbf{Objetivo}: Consolidar todos los resultados y preparar los materiales para la defensa del proyecto terminal.
+    \item \textbf{Objetivo}: Consolidar todos los resultados y preparar los materiales para la presentación del proyecto terminal.
     \item \textbf{Actividades}:
         \begin{enumerate}
-            \item Redactar el informe final (estructura de tesis).
+            \item Redactar el informe final.
             \item Elaborar manual de instalación y guía de usuario.
-            \item Preparar presentación en diapositivas (PowerPoint / LaTeX Beamer).
+            \item Preparar presentación en diapositivas (PowerPoint / LaTeX).
             \item Ensayar la defensa con el asesor.
         \end{enumerate}
-    \item \textbf{Entregables}: Tesis completa (PDF), código fuente en repositorio, manuales, presentación.
+    \item \textbf{Entregables}: Protocolos I, II, III (PDF), código fuente en repositorio, manuales, presentación.
     \item \textbf{Herramientas}: Overleaf / LaTeX, GitHub, Canva / PowerPoint.
-    \item \textbf{Criterios de aceptación}: Aprobación del asesor y del jurado.
-    \item \textbf{Duración}: 4 semanas (se solapa con las semanas finales del trimestre).
+    \item \textbf{Criterios de aceptación}: Aprobación del asesor.
+    \item \textbf{Duración}: 4 semanas.
 \end{itemize}
 
-
+\newpage
 \subsection{Diagramas de la metodología y la arquitectura}
 
 A continuación se presentan los diagramas clave que ilustran tanto el flujo metodológico como la solución técnica. Los diagramas fueron elaborados con PlantUML, Lucid.app entre otras herramientas de creación y modelado de diagramas.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.30\textwidth]{imagenes/metodologia_flujo.png}
+\includegraphics[width=0.20\textwidth]{imagenes/metodologia_flujo.png}
 \caption{Flujo metodológico de las fases incrementales. Las flechas de retroalimentación indican ciclos de mejora.}
 \label{fig:metodologia_flujo}
 \end{figure}
@@ -205,7 +204,7 @@ Fallo del broker Kafka & Pérdida de eventos en tiempo real & Configurar replica
 \hline
 Alta latencia en notificaciones push & Mala experiencia de usuario & Optimizar la integración con FCM; usar colas de prioridad en Kafka. \\
 \hline
-Baja adopción en pruebas de usabilidad & Muestra insuficiente para validar hipótesis & Ofrecer incentivos (participación en sorteo de tarjeta de regalo); coordinar con profesores para crédito extra. \\
+Baja adopción en pruebas de usabilidad & Muestra insuficiente para validar hipótesis & Ofrecer incentivos; coordinar con profesores para solicitud de apoyo a la comunidad. \\
 \hline
 Problemas de compatibilidad entre Flutter y versiones de iOS/Android & Fallos en dispositivos reales & Probar en múltiples emuladores y dispositivos prestados; usar pruebas en la nube (Firebase Test Lab). \\
 \hline
@@ -234,9 +233,8 @@ Para dar por concluido el proyecto terminal, el sistema deberá cumplir con la s
     \item La hipótesis general ha sido validada (o refutada, pero con conclusiones claras).
     \item El código fuente está disponible en un repositorio Git con un README que explique cómo ejecutar el sistema.
     \item El sistema se puede desplegar con \texttt{docker-compose up} en una máquina limpia.
-    \item Las pruebas de carga indican que la latencia media es inferior a 2 segundos para 1000 eventos por segundo.
     \item La puntuación SUS media es superior a 70.
-    \item La documentación final (tesis) ha sido aprobada por el asesor y el jurado.
+    \item La documentación final (Protocolos I, II, III) ha sido aprobada por el asesor y otras autoridades pertinentes.
 \end{enumerate}
 
 La metodología descrita garantiza un desarrollo sistemático, trazable y orientado a la validación de la hipótesis, lo que es esencial para el éxito del proyecto terminal.

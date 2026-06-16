@@ -1,0 +1,80 @@
+\section{Cronograma tentativo}
+
+El proyecto se desarrolla en tres trimestres (Proyecto Terminal I, II y III), cada uno de 11 semanas. El diagrama siguiente muestra la distribución de actividades técnicas (basadas en las fases de la metodología) y los hitos establecidos por la CLTSI, adaptado al ancho de columna.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{ganttchart}[
+  hgrid,
+  vgrid={*6{dotted}, *1{black}},
+  x unit=0.22cm,          % muy compacto para que quepan 33 semanas
+  y unit chart=0.35cm,
+  title label font=\tiny\bfseries,
+  bar label font=\tiny,
+  bar height=0.4,
+  group label font=\tiny\bfseries,
+  milestone label font=\scriptsize,
+  bar/.append style={fill=blue!60},
+  group/.append style={fill=green!40},
+  milestone/.append style={fill=red!70, rounded corners=2pt},
+  link/.style={thin, -stealth}
+]{1}{33}
+
+% Títulos de los trimestres (cada 11 semanas)
+\gantttitle{PT I (sem 1-11)}{11}
+\gantttitle{PT II (sem 12-22)}{11}
+\gantttitle{PT III (sem 23-33)}{11} \\
+% Números de semana del 1 al 33
+\gantttitlelist{1,...,11}{1}
+\gantttitlelist{12,...,22}{1}
+\gantttitlelist{23,...,33}{1} \\
+
+% ========== ACTIVIDADES TÉCNICAS (Metodología) ==========
+\ganttbar{1. Análisis de requisitos}{1}{3} \\
+\ganttbar{2. Diseño arquitectónico y BD}{3}{5} \\
+\ganttbar{3. Configuración entorno Docker}{6}{7} \\
+\ganttbar{4. Desarrollo backend (Spring + Kafka)}{8}{16} \\
+\ganttbar{5. BD y caché (PostgreSQL + Redis)}{14}{16} \\
+\ganttbar{6. Desarrollo app móvil (Flutter)}{17}{22} \\
+\ganttbar{7. Integración y pruebas funcionales}{23}{25} \\
+\ganttbar{8. Pruebas de usabilidad y rendimiento}{26}{28} \\
+\ganttbar{9. Documentación y presentación final}{29}{33} \\
+
+% ========== HITOS CLTSI ==========
+% PT I
+\ganttmilestone{Envío título y asesores (sem 4)}{4} \\
+\ganttmilestone{Protocolo listo (sem 7)}{7} \\
+\ganttmilestone{Envío protocolo (sem 8)}{8} \\
+\ganttmilestone{Envío cartel y doc final PT I (sem 11)}{11} \\
+\ganttmilestone{Exposición carteles PT I (sem 12)}{12} \\
+% PT II
+\ganttmilestone{Envío título y asesores PT II (sem 15)}{15} \\
+\ganttmilestone{Video demostrativo (sem 22)}{22} \\
+\ganttmilestone{Evento exposición avances PT II (sem 23)}{23} \\
+% PT III
+\ganttmilestone{Envío título y asesores PT III (sem 26)}{26} \\
+\ganttmilestone{Doc final a revisores (sem 30)}{30} \\
+\ganttmilestone{Corrección comentarios (sem 31)}{31} \\
+\ganttmilestone{Presentación final (sem 32)}{32} \\
+
+\end{ganttchart}
+}% fin de resizebox
+\Description{Cronograma detallado por semanas que muestra las actividades técnicas y los hitos obligatorios de la CLTSI en un diagrama de Gantt.}
+\caption{Cronograma detallado por semanas (33 semanas = 3 trimestres de 11 semanas). Las barras azules son las fases de la metodología; los hitos rojos son entregas obligatorias según la CLTSI.}
+\label{fig:cronograma_gantt}
+\end{figure}
+
+\subsection{Interpretación del cronograma}
+
+La distribución de actividades es la siguiente:
+
+\begin{itemize}
+    \item \textbf{Trimestre I (semanas 1–11)}: Se cubren las fases 1 a 4 (inicio del backend). Se entrega el protocolo en la semana 8 y el cartel en la 11.
+    \item \textbf{Trimestre II (semanas 12–22)}: Se completa el backend (fase 4), se implementa la base de datos y caché (fase 5), y se desarrolla la aplicación móvil (fase 6). El video demostrativo se entrega en la semana 22.
+    \item \textbf{Trimestre III (semanas 23–33)}: Se realizan las pruebas de integración, usabilidad y rendimiento (fases 7 y 8), y se documenta el proyecto (fase 9). La presentación final ocurre en la semana 32.
+\end{itemize}
+
+Las fases 4 y 5 se solapan parcialmente (semanas 14–16) porque la base de datos y el backend se desarrollan en paralelo. Asimismo, la documentación (fase 9) comienza antes de que terminen las pruebas, para aprovechar el tiempo y permitir correcciones de última hora.
+
+El cronograma es tentativo y podrá ajustarse durante el desarrollo, pero proporciona una guía clara para el cumplimiento de los hitos académicos.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.25)  23 JUN 2026 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.25)  24 JUN 2026 01:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -890,31 +890,43 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box140
 \enit@count@id=\count382
 \enitdp@description=\count383
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen336
+\ar@mcellbox=\box141
+\extrarowheight=\dimen337
+\NC@list=\toks57
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box142
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 24.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 26.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./poster_notiuam.aux)
+) (./poster_notiuam.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
 \openout1 = `poster_notiuam.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -924,14 +936,14 @@ LaTeX Font Info:    ... okay on input line 24.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(85.35826pt, 2390.0315pt, 85.35826pt)
+* h-part:(L,W,R)=(71.13188pt, 2418.48425pt, 71.13188pt)
 * v-part:(T,H,B)=(0.0pt, 3396.69012pt, 0.0pt)
 * \paperwidth=2560.74802pt
 * \paperheight=3396.69012pt
-* \textwidth=2390.0315pt
+* \textwidth=2418.48425pt
 * \textheight=3368.2374pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -939,7 +951,7 @@ LaTeX Font Info:    ... okay on input line 24.
 * \footskip=14.22636pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
-* \columnsep=28.45274pt
+* \columnsep=17.07182pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -953,23 +965,24 @@ LaTeX Font Info:    ... okay on input line 24.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count384
-\scratchdimen=\dimen336
-\scratchbox=\box141
+\scratchdimen=\dimen338
+\scratchbox=\box143
 \nofMPsegments=\count385
 \nofMParguments=\count386
-\everyMPshowfont=\toks57
+\everyMPshowfont=\toks58
 \MPscratchCnt=\count387
-\MPscratchDim=\dimen337
+\MPscratchDim=\dimen339
 \MPnumerator=\count388
 \makeMPintoPDFobject=\count389
-\everyMPtoPDFconversion=\toks58
+\everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 26.
+ (./poster_notiuam.out) (./poster_notiuam.out)
 \@outlinefile=\write5
 \openout5 = `poster_notiuam.out'.
 
@@ -986,224 +999,109 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
  (./poster_notiuam.nav)
-Overfull \hbox (665.22545pt too wide) detected at line 24
+Overfull \hbox (693.6782pt too wide) detected at line 26
  [] 
  []
 
-
-LaTeX Warning: File `images/image5.png' not found on input line 24.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:24: Package pdftex.def Error: File `images/image5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \begin{document}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 24.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: File `images/image1.png' not found on input line 24.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:24: Package pdftex.def Error: File `images/image1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \begin{document}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Calculating math sizes for size <19.2> on input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 24.
+<imagenes/image5.png, id=13, 506.6127pt x 162.1257pt>
+File: imagenes/image5.png Graphic file (type png)
+<use imagenes/image5.png>
+Package pdftex.def Info: imagenes/image5.png  used on input line 26.
+(pdftex.def)             Requested size: 501.54811pt x 160.50493pt.
+<imagenes/image1.png, id=15, 1320.935pt x 517.935pt>
+File: imagenes/image1.png Graphic file (type png)
+<use imagenes/image1.png>
+Package pdftex.def Info: imagenes/image1.png  used on input line 26.
+(pdftex.def)             Requested size: 396.28355pt x 155.38168pt.
+LaTeX Font Info:    Calculating math sizes for size <19.2> on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 26.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 24.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 26.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 24.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 26.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.2> not available
-(Font)              size <20.74> substituted on input line 24.
+(Font)              size <20.74> substituted on input line 26.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.43993> not available
-(Font)              size <14.4> substituted on input line 24.
+(Font)              size <14.4> substituted on input line 26.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <9.59999> not available
-(Font)              size <10> substituted on input line 24.
+(Font)              size <10> substituted on input line 26.
 
 
-Overfull \hbox (665.22545pt too wide) detected at line 24
+Overfull \hbox (693.6782pt too wide) detected at line 26
  [] 
  []
 
 
-Overfull \hbox (665.22545pt too wide) detected at line 143
+Overfull \hbox (693.6782pt too wide) detected at line 131
  [] 
  []
 
+File: imagenes/image5.png Graphic file (type png)
+<use imagenes/image5.png>
+Package pdftex.def Info: imagenes/image5.png  used on input line 131.
+(pdftex.def)             Requested size: 501.54811pt x 160.50493pt.
+File: imagenes/image1.png Graphic file (type png)
+<use imagenes/image1.png>
+Package pdftex.def Info: imagenes/image1.png  used on input line 131.
+(pdftex.def)             Requested size: 396.28355pt x 155.38168pt.
 
-LaTeX Warning: File `images/image5.png' not found on input line 143.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:143: Package pdftex.def Error: File `images/image5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/image1.png' not found on input line 143.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:143: Package pdftex.def Error: File `images/image1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (665.22545pt too wide) detected at line 143
+Overfull \hbox (693.6782pt too wide) detected at line 131
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 143.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 131.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <39.81> on input line 143.
+LaTeX Font Info:    Calculating math sizes for size <39.81> on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <39.81> not available
-(Font)              size <24.88> substituted on input line 143.
+(Font)              size <24.88> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <27.86687> not available
-(Font)              size <24.88> substituted on input line 143.
+(Font)              size <24.88> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.905> not available
-(Font)              size <20.74> substituted on input line 143.
+(Font)              size <20.74> substituted on input line 131.
 
-
-Underfull \hbox (badness 1147) in paragraph at lines 143--143
-[]\T1/lmr/m/n/39.81 Implementar ca-na-les, sus-crip-cio-nes y au-ten-ti-ca-ción con Post-
- []
-
-
-Overfull \hbox (50.60887pt too wide) in paragraph at lines 143--143
- []\T1/lmr/bx/n/57.33 4. 
- []
-
-
-Overfull \hbox (128.77347pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 Fun- 
- []
-
-
-Overfull \hbox (100.77261pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 cio- 
- []
-
-
-Overfull \hbox (89.12746pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 na- 
- []
-
-
-Overfull \hbox (158.867pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 mien- 
- []
-
-
-Overfull \hbox (57.77512pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 to 
- []
-
-
-Overfull \hbox (83.6214pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 ge- 
- []
-
-
-Overfull \hbox (87.20451pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 ne- 
- []
-
-
-Overfull \hbox (76.05623pt too wide) in paragraph at lines 143--143
- \T1/lmr/bx/n/57.33 ral  
- []
-
-<imagenes/arquitectura_componentes_cartel.png, id=13, 1027.84pt x 1541.76pt>
+<imagenes/arquitectura_componentes_cartel.png, id=16, 1027.84pt x 1541.76pt>
 File: imagenes/arquitectura_componentes_cartel.png Graphic file (type png)
 <use imagenes/arquitectura_componentes_cartel.png>
-Package pdftex.def Info: imagenes/arquitectura_componentes_cartel.png  used on input line 143.
-(pdftex.def)             Requested size: -16.89297pt x -25.33678pt.
-
-Overfull \hbox (18.9809pt too wide) in paragraph at lines 143--143
- [] 
- []
-
-
-Overfull \hbox (2.08792pt too wide) in paragraph at lines 143--143
- [] 
- []
-
-LaTeX Font Info:    Calculating math sizes for size <27.65> on input line 143.
+Package pdftex.def Info: imagenes/arquitectura_componentes_cartel.png  used on input line 131.
+(pdftex.def)             Requested size: 681.80273pt x 1022.71681pt.
+LaTeX Font Info:    Calculating math sizes for size <27.65> on input line 131.
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <27.65> not available
-(Font)              size <24.88> substituted on input line 143.
+(Font)              size <24.88> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.3549> not available
-(Font)              size <20.74> substituted on input line 143.
+(Font)              size <20.74> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.825> not available
-(Font)              size <14.4> substituted on input line 143.
+(Font)              size <14.4> substituted on input line 131.
 
 
-Overfull \hbox (58.10352pt too wide) in paragraph at lines 143--143
- [] 
- []
-
-
-Overfull \vbox (704.79158pt too high) detected at line 143
- []
-
-
-Overfull \hbox (665.22545pt too wide) has occurred while \output is active
+Overfull \hbox (693.6782pt too wide) has occurred while \output is active
  [] 
  []
 
@@ -1213,7 +1111,7 @@ Overfull \hbox (21.68121pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (665.22545pt too wide) has occurred while \output is active
+Overfull \hbox (693.6782pt too wide) has occurred while \output is active
  [] 
  []
 
@@ -1222,39 +1120,17 @@ Overfull \hbox (36.135pt too wide) has occurred while \output is active
 [] []
  []
 
-
-LaTeX Warning: File `images/image5.png' not found on input line 143.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:143: Package pdftex.def Error: File `images/image5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/image1.png' not found on input line 143.
-
-
-/home/mort/Escritorio/protocoloPT1/poster_notiuam.tex:143: Package pdftex.def Error: File `images/image1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+File: imagenes/image5.png Graphic file (type png)
+<use imagenes/image5.png>
+Package pdftex.def Info: imagenes/image5.png  used on input line 131.
+(pdftex.def)             Requested size: 501.54811pt x 160.50493pt.
+File: imagenes/image1.png Graphic file (type png)
+<use imagenes/image1.png>
+Package pdftex.def Info: imagenes/image1.png  used on input line 131.
+(pdftex.def)             Requested size: 396.28355pt x 155.38168pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}
 
- <./imagenes/arquitectura_componentes_cartel.png (PNG copy)>]
+ <./imagenes/arquitectura_componentes_cartel.png (PNG copy)> <./imagenes/image5.png> <./imagenes/image1.png>]
 \tf@nav=\write6
 \openout6 = `poster_notiuam.nav'.
 
@@ -1277,28 +1153,22 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 14.93pt have occurred.
 
-
-Package rerunfilecheck Warning: File `poster_notiuam.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `poster_notiuam.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `poster_notiuam.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31381 strings out of 474222
- 628301 string characters out of 5748733
- 1991975 words of memory out of 5000000
- 52998 multiletter control sequences out of 15000+600000
- 647008 words of font info for 105 fonts, out of 8000000 for 9000
+ 31274 strings out of 474222
+ 626004 string characters out of 5748733
+ 1982975 words of memory out of 5000000
+ 52889 multiletter control sequences out of 15000+600000
+ 653967 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,549b,831s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on poster_notiuam.pdf (1 page, 1584575 bytes).
+ 128i,18n,123p,525b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on poster_notiuam.pdf (1 page, 1634010 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 30 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

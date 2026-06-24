@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1781598541.67885 "main.aux" "main.bbl" "main" 1781598543.76468 0
+["bibtex main"] 1782267263.96253 "main.aux" "main.bbl" "main" 1782267468.76463 0
   "./references.bib" 1780465443.76475 3261 da2dd403edb8988979be45252863cb93 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format.bst" 1680299675 90332 18dc4e5c9b5c2ddd337e9f97727d04f1 ""
-  "main.aux" 1781598543.48175 15206 b9633f77689ceb344bcb1478aee55b3b "pdflatex"
+  "main.aux" 1782267468.50511 13570 d11b8f2310a728c2779c83be78bfbeeb "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1781598541.74843 "/home/mort/Escritorio/protocoloPT1/main.tex" "main.pdf" "main" 1781598543.7649 0
+["pdflatex"] 1782267466.78747 "/home/mort/Escritorio/protocoloPT1/main.tex" "main.pdf" "main" 1782267468.76479 0
   "/etc/texmf/web2c/texmf.cnf" 1779767773.16605 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mort/Escritorio/protocoloPT1/main.tex" 1781518425.8879 6017 5eec0438d5a484796b01f2494d030cb8 ""
+  "/home/mort/Escritorio/protocoloPT1/main.tex" 1782266967.47633 6037 3629d840921677d0b95e3bcfa9cb815d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc" 1558214095 7693 0f2dce6d313c82989ec3a67fc24df2a0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -279,15 +279,15 @@
   "imagenes/logo_uam.png" 1779645535.52926 273980 0cb6722b69804f2aedd31f9eba266c73 ""
   "imagenes/metodologia_flujo.png" 1781517132.93674 159164 6be77072ee1b8ce687a1b994cd37b0af ""
   "imagenes/secuencia_publicacion.png" 1781512525.36851 14072 b549166d479a954dc70cccbdc2187645 ""
-  "main.aux" 1781598543.48175 15206 b9633f77689ceb344bcb1478aee55b3b "pdflatex"
-  "main.bbl" 1781598541.74292 6162 c5dfa2555e066b4cb8b4eaa50926abb7 "bibtex main"
-  "main.out" 1781598543.48275 10386 cb9c0e3e29da783cc575cad116fb1f20 "pdflatex"
-  "main.tex" 1781518425.8879 6017 5eec0438d5a484796b01f2494d030cb8 ""
-  "sections/01_introduccion.tex" 1780466271.18266 7387 fb8d108deff3839868cab699beccdecf ""
-  "sections/02_marco_teorico.tex" 1780466971.5284 11545 0073fa7f1206e744a5b5d56a71fe72d3 ""
+  "main.aux" 1782267468.50511 13570 d11b8f2310a728c2779c83be78bfbeeb "pdflatex"
+  "main.bbl" 1782267264.02421 6162 c5dfa2555e066b4cb8b4eaa50926abb7 "bibtex main"
+  "main.out" 1782267468.50611 8925 2139ba414f9aaba560082f9db53f8f25 "pdflatex"
+  "main.tex" 1782266967.47633 6037 3629d840921677d0b95e3bcfa9cb815d ""
+  "sections/01_introduccion.tex" 1782265918.59724 7388 b2620730922b93fdb1365890ff2050f8 ""
+  "sections/02_marco_teorico.tex" 1782267466.58865 11592 ad373403169b6bfd73adae703e9db925 ""
   "sections/03_estado_del_arte.tex" 1780468655.91879 10341 dfc561915e6de9d491d09af1c1c07a78 ""
-  "sections/04_objetivos.tex" 1780470345.87854 5281 fd3720dd939e4297e0a83cb0f8432df4 ""
-  "sections/05_hipotesis.tex" 1780471214.13038 6640 5c49456a1a61fc87fb276c564576fdb8 ""
+  "sections/04_objetivos.tex" 1782267268.44777 5350 bb57cd6680510fca5ecd525ce1fe56c3 ""
+  "sections/05_hipotesis.tex" 1782267284.864 6713 71f84dff01756bfd5408e8cd5d717450 ""
   "sections/06_metodologia.tex" 1781592949.1861 14942 99da9398a34d328c759a947b1a00ca16 ""
   "sections/07_cronograma.tex" 1781598539.50789 4038 180c9cc88524d0c61c9bb0ecd48e8408 ""
   (generated)

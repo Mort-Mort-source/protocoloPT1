@@ -1,6 +1,6 @@
 \section{Marco Teórico}
 
-El presente marco teórico expone los conceptos fundamentales necesarios para comprender y justificar las decisiones tecnológicas y de diseño de la plataforma \textbf{Noti Uam}. Se abordan, en primer lugar, los principios de los sistemas distribuidos y, en particular, el modelo de arquitectura \textit{publish-subscribe} (pub-sub). Posteriormente, se describen las tecnologías específicas seleccionadas para el desarrollo del \textit{backend}, la base de datos, la capa de mensajería y la aplicación móvil. Finalmente, se introducen los principios de Interacción Humano-Computadora (IHC) y los mecanismos de autenticación y seguridad.
+El presente marco teórico expone los conceptos fundamentales necesarios para comprender y justificar las decisiones tecnológicas y de diseño de la plataforma \textbf{Noti Uam}. Se abordan, en primer lugar, los principios de los sistemas distribuidos y, en particular, el modelo de arquitectura \textit{publisher-subscriber} (pub-sub). Posteriormente, se describen las tecnologías específicas seleccionadas para el desarrollo del \textit{backend}, la base de datos, la capa de mensajería y la aplicación móvil. Finalmente, se introducen los principios de Interacción Humano-Computadora (IHC) y los mecanismos de autenticación y seguridad.
 
 \subsection{Sistemas distribuidos: principios y paradigmas}
 
@@ -17,9 +17,9 @@ Las propiedades deseables de los sistemas distribuidos incluyen:
 
 La última propiedad es particularmente relevante para sistemas de notificaciones como \textit{Noti Uam}, donde los emisores de avisos (estudiantes, profesores) y los receptores (suscriptores) operan de manera asíncrona y pueden estar desconectados en distintos momentos.
 
-\subsection{Arquitectura publish-subscribe (pub-sub)}
+\subsection{Arquitectura publisher-subscriber (pub-sub)}
 
-El modelo \textbf{publish-subscribe} es un estilo arquitectónico para sistemas de comunicación basada en eventos \cite{tarkoma2012publish}. En este modelo, los productores (\textit{publishers}) generan eventos o mensajes y los publican en un \textit{broker} o intermediario sin conocer a los suscriptores. Los consumidores (\textit{subscribers}) expresan su interés en ciertos tipos de eventos (normalmente mediante filtros o canales) y el \textit{broker} se encarga de entregar los mensajes a todos los suscriptores relevantes.
+El modelo \textbf{publisher-subscriber} es un estilo arquitectónico para sistemas de comunicación basada en eventos \cite{tarkoma2012publish}. En este modelo, los productores (\textit{publishers}) generan eventos o mensajes y los publican en un \textit{broker} o intermediario sin conocer a los suscriptores. Los consumidores (\textit{subscribers}) expresan su interés en ciertos tipos de eventos (normalmente mediante filtros o canales) y el \textit{broker} se encarga de entregar los mensajes a todos los suscriptores relevantes.
 
 Las ventajas principales del modelo pub-sub son:
 
@@ -126,11 +126,16 @@ La combinación de los conceptos expuestos permite diseñar \textit{Noti Uam} co
 \hline
 \textbf{Componente} & \textbf{Fundamento teórico} \\
 \hline
-Apache Kafka & Modelo publish-subscribe, desacoplamiento temporal/espacial \\
+Apache Kafka & Modelo publisher-subscriber, desacoplamiento temporal/espacial \\
+\hline
 Spring Boot & Arquitectura RESTful, contenedor de servicios \\
+\hline
 PostgreSQL + Redis & Persistencia ACID + caché en memoria \\
+\hline
 Flutter & Desarrollo multiplataforma, IHC, notificaciones push \\
+\hline
 JWT & Autenticación stateless, seguridad \\
+\hline
 Docker & Contenerización, portabilidad, entornos reproducibles \\
 \hline
 \end{tabular}

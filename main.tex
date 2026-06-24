@@ -20,6 +20,7 @@
 \usepackage{float}
 \usepackage{pgfgantt}
 \usepackage{caption}
+\usepackage{comment}
 
 % =========================================================
 % CONFIGURACIÓN ACM
@@ -47,7 +48,7 @@
   \city{Ciudad de México}
   \country{México}
 }
-\email{aaron.r.ramos@cuam.uam.mx}
+\email{aaron.r.ramos@cua.uam.mx}
 
 % --- ASESOR (campo obligatorio en la guía UAM) ---
 \renewcommand{\shortauthors}{Ramos Reyes, A. R.}
@@ -103,10 +104,10 @@
 
 \begin{abstract}
 La comunicación dentro de las universidades suele estar fragmentada entre múltiples plataformas externas 
-(Foross, redes sociales, correo institucional), lo que provoca baja visibilidad de eventos académicos, 
+(Foros, redes sociales, correo institucional), lo que provoca baja visibilidad de eventos académicos, 
 desinformación y dificultad para descubrir canales de interés. Este proyecto terminal presenta \textbf{Noti Uam}, 
 una plataforma distribuida de comunicación y alertas comunitarias orientada a entornos universitarios.
- El sistema se basa en una arquitectura distribuida \textit{publish-subscribe} (pub-sub) que permite la creación de 
+ El sistema se basa en una arquitectura distribuida \textit{publish-subscriber} (pub-sub) que permite la creación de 
  canales temáticos, suscripción abierta y notificaciones en tiempo real. Se propone implementar el backend con 
  Spring Boot y Apache Kafka, utilizar PostgreSQL y Redis para persistencia y caché, y desarrollar una aplicación 
  móvil multiplataforma con Flutter. El objetivo general es diseñar y construir una solución escalable, usable y 

@@ -29,8 +29,7 @@
     \vspace{0.1cm}  % Reducido
     
     % Bloque 1: Introducción
-    \begin{block}{\Large 1. Introducción}
-        La comunicación universitaria actual depende de plataformas externas (WhatsApp, redes sociales, correo) que fragmentan la información, dificultan el descubrimiento de eventos y permiten la desinformación. Más del 80\% de los estudiantes usan estas herramientas, pero reportan sobrecarga y pérdida de información relevante. Se evidencia la necesidad de una plataforma propia, abierta y distribuida que centralice los avisos y notificaciones en tiempo real.
+    \begin{block}{\Large 1. Introducción}La comunicación en el ámbito universitario depende de plataformas externas, como \textit{WhatsApp}, las redes sociales y el correo electrónico, entre otras. Esta dependencia propicia la fragmentación de la información, dificulta la difusión y el descubrimiento oportuno de eventos, y favorece la circulación de información errónea o descontextualizada. Aunque más del 80\% de los estudiantes utiliza estas herramientas como principal medio de comunicación, diversos reportes evidencian problemas de sobrecarga informativa y pérdida de información relevante. Es necesario desarrollar una plataforma institucional, abierta y distribuida que centralice la gestión de avisos y notificaciones, garantizando una comunicación más eficiente y en tiempo real.
     \end{block}
 
     \begin{tcolorbox}[colframe=white, colback=white, height=0.1cm, left=0pt, right=0pt, top=0pt, bottom=0pt, boxsep=0pt]
@@ -39,38 +38,39 @@
     % Columna izquierda
     \begin{minipage}[t]{0.48\textwidth}
         \begin{block}{\Large 2. Justificación}
+            
             \begin{itemize}[leftmargin=*, itemsep=1pt]
-                \item Las plataformas actuales no diseñadas para el entorno universitario.
+                \item Las plataformas actuales no están diseñadas para el entorno universitario.
                 \item Grupos cerrados limitan el acceso a información.
                 \item Sin control sobre la veracidad del contenido.
                 \item Correo institucional poco efectivo para notificaciones inmediatas.
             \end{itemize}
-            \textbf{Por lo tanto,} se requiere una solución centralizada, abierta, con notificaciones en tiempo real y arquitectura distribuida.
+            Se requiere una solución centralizada, abierta, con notificaciones en tiempo real y arquitectura distribuida.
         \end{block}
 
         \vspace{0.2cm}
 
-        \begin{block}{\Large 3. Propuesta y Objetivos}
+        \begin{block}{\Large 3. Características y Objetivos}
             \textbf{Noti Uam} es una plataforma distribuida basada en el modelo \textit{publisher-subscriber} que permite:
             \begin{itemize}[leftmargin=*, itemsep=1pt]
                 \item Crear canales temáticos (académicos, culturales, deportivos).
                 \item Suscribirse y descubrir canales abiertamente.
                 \item Recibir notificaciones push en tiempo real.
-                \item Autenticación segura con JWT.
+                \item Autenticar de manera segura.
             \end{itemize}
             \textbf{Objetivos:}
-            \begin{itemize}[leftmargin=*, itemsep=1pt]
-                \item Diseñar arquitectura pub-sub con Spring Boot, Kafka y Docker.
-                \item Implementar canales, suscripciones y autenticación con PostgreSQL, Redis y JWT.
-                \item Desarrollar app móvil multiplataforma con Flutter, priorizando usabilidad (IHC).
-            \end{itemize}
+            \begin{enumerate}[leftmargin=*, itemsep=1pt]
+                \item Diseñar una arquitectura basada en pub-sub, microservicios y contenerización.
+                \item Diseñar e implementar una app móvil multiplataforma con Flutter usable (IHC).
+                \item Diseñar e implementar canales, suscripciones y autenticación con PostgreSQL, Redis y JWT.
+            \end{enumerate}
         \end{block}
     \end{minipage}
     \hspace{0.02\textwidth}%
     \begin{minipage}[t]{0.48\textwidth}
-        \begin{block}{\Large 4. Funcionamiento general}
+        \begin{block}{\Large 4. Escenario de Uso}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{imagenes/arquitectura_componentes_cartel.png}
+                \includegraphics[width=0.7\linewidth]{imagenes/arquitectura_componentes_cartel.png}
             \end{center}
             \vspace{0.1cm}
             \small{La arquitectura sigue el modelo publisher-subscriber: la app móvil se comunica con el API Gateway (Spring Boot), que publica eventos en Kafka; un Worker consume y envía notificaciones push mediante FCM.}

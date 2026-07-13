@@ -1,29 +1,57 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.25)  23 JUN 2026 20:17
-entering extended mode
- restricted \write18 enabled.
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.8.15)  13 JUL 2026 12:06
+ system commands enabled.
  file:line:error style messages enabled.
- %&-line parsing enabled.
-**/home/mort/Escritorio/protocoloPT1/main.tex
-(/home/mort/Escritorio/protocoloPT1/main.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
-(/usr/share/texlive/texmf-dist/tex/latex/acmart/acmart.cls
-Document Class: acmart 2024/02/04 v2.03 Typesetting articles for the Association for Computing Machinery
+**/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main
+(/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/home/brujo/.texlive2025/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/brujo/.texlive2025/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/texmf-dist/tex/latex/acmart/acmart.cls
+Document Class: acmart 2024/12/28 v2.12 Typesetting articles for the Association for Computing Machinery
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count187
+\XKV@depth=\count194
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count188
-\xs_countb=\count189
+\xs_counta=\count195
+\xs_countb=\count196
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Package acmart Info: Not using screen mode on input line 76.
 Package acmart Info: Using breaking urls on hyphens on input line 84.
@@ -41,10 +69,10 @@ Class acmart Info: Using fontsize 9pt on input line 280.
 Document Class: amsart 2020/05/29 v2.20.6
 \linespacing=\dimen140
 \normalparindent=\dimen141
-\normaltopskip=\skip48
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip49
+\normaltopskip=\skip49
+luaotfload | db : Font names database loaded from /home/brujo/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -59,40 +87,40 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count190
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count191
-\leftroot@=\count192
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count193
-\DOTSCASE@=\count194
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count195
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count196
-\dotsspace@=\muskip16
-\c@parentequation=\count197
-\dspbrk@lvl=\count198
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count268
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip17
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
 \tag@help=\toks20
-\row@=\count199
-\column@=\count266
-\maxfields@=\count267
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
 \andhelp@=\toks21
 \eqnshift@=\dimen145
 \alignsep@=\dimen146
@@ -101,8 +129,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen149
 \lineht@=\dimen150
 \@envbody=\toks22
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -119,55 +147,60 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 \copyins=\insert252
-\abstractbox=\box53
-\listisep=\skip52
-\c@part=\count268
-\c@section=\count269
-\c@subsection=\count270
-\c@subsubsection=\count271
-\c@paragraph=\count272
-\c@subparagraph=\count273
-\c@figure=\count274
-\c@table=\count275
-\abovecaptionskip=\skip53
-\belowcaptionskip=\skip54
+\abstractbox=\box54
+\listisep=\skip53
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
 \captionindent=\dimen151
 \thm@style=\toks24
 \thm@bodyfont=\toks25
 \thm@headfont=\toks26
 \thm@notefont=\toks27
 \thm@headpunct=\toks28
-\thm@preskip=\skip55
-\thm@postskip=\skip56
-\thm@headsep=\skip57
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
 \dth@everypar=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count276
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
 )
 \MT@toks=\toks30
-\MT@tempbox=\box54
-\MT@count=\count277
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
-LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@tempbox=\box55
+\MT@count=\count284
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks31
-LaTeX Info: Redefining \rightprotrusion on input line 1078.
-LaTeX Info: Redefining \textls on input line 1368.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen152
-LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count278
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 902.
-LaTeX Info: Redefining \lslig on input line 902.
-\MT@outer@space=\skip58
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count285
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2025/02/11 v3.2a Definitions specific to luatex (RS)
+Lua module: microtype 2025/02/11 v3.2a microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 779.
+LaTeX Info: Redefining \lslig on input line 779.
+\MT@outer@space=\skip59
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
-)) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen153
 \lightrulewidth=\dimen154
@@ -179,12 +212,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen160
 \cmidrulekern=\dimen161
 \defaultaddspace=\dimen162
-\@cmidla=\count279
-\@cmidlb=\count280
+\@cmidla=\count286
+\@cmidlb=\count287
 \@aboverulesep=\dimen163
 \@belowrulesep=\dimen164
-\@thisruleclass=\count281
-\@lastruleclass=\count282
+\@thisruleclass=\count288
+\@lastruleclass=\count289
 \@thisrulewidth=\dimen165
 ) (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -200,19 +233,16 @@ Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
-Package textcase Info: Defining Legacy names on input line 20.
-)
+))
 \@ACM@acmcp@delta=\dimen166
  (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip59
-\bibsep=\skip60
+\bibhang=\skip60
+\bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count283
+\c@NAT@ctr=\count290
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -224,10 +254,9 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks32
 )) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
@@ -235,72 +264,70 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count284
+\c@section@level=\count291
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen167
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count294
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062.
-Package hyperref Info: Option `unicode' set `true' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4040.
+Package hyperref Info: Option `unicode' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count288
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count295
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen168
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count289
+\Fld@menulength=\count296
 \Field@Width=\dimen169
 \Fld@charsize=\dimen170
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hluatex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-11-05 v7.01l Hyperref driver for luaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -308,61 +335,74 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip62
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
-Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks32
- (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: hyperxmp 2024/03/17 v5.13 Store hyperref metadata in XMP format
+\hyxmp@aep@toks=\toks33
+ (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ (/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count302
 )
-\@hyxmp@count=\count295
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+\luacode@lines=\toks34
+\luacode@table@soft=\catcodetable16
+)
+\@hyxmp@count=\count303
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+\hyxmp@cct=\catcodetable17
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: luatex.def on input line 106.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: luatex.def on input line 274.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count296
-\Gm@cntv=\count297
-\c@Gm@tempcnt=\count298
+\Gm@cnth=\count304
+\Gm@cntv=\count305
+\c@Gm@tempcnt=\count306
 \Gm@bindingoffset=\dimen173
 \Gm@wd@mp=\dimen174
 \Gm@odd@mp=\dimen175
@@ -371,7 +411,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen178
 \Gm@layouthoffset=\dimen179
 \Gm@layoutvoffset=\dimen180
-\Gm@dimlist=\toks33
+\Gm@dimlist=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
 Package: manyfoot 2019/08/03 v1.11 Many Footnote Levels Package (NCC)
  (/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty
@@ -380,279 +420,1192 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 \MFL@columnwidth=\dimen181
 )
 \footinsauthorsaddresses=\insert251
-\c@footnoteauthorsaddresses=\count299
+\c@footnoteauthorsaddresses=\count307
 \footinscopyrightpermission=\insert250
-\c@footnotecopyrightpermission=\count300
- (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+\c@footnotecopyrightpermission=\count308
+ (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count309
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box56
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
+Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count310
+\l__fontspec_language_int=\count311
+\l__fontspec_strnum_int=\count312
+\l__fontspec_tmp_int=\count313
+\l__fontspec_tmpa_int=\count314
+\l__fontspec_tmpb_int=\count315
+\l__fontspec_tmpc_int=\count316
+\l__fontspec_em_int=\count317
+\l__fontspec_emdef_int=\count318
+\l__fontspec_strong_int=\count319
+\l__fontspec_strongdef_int=\count320
+\l__fontspec_tmpa_dim=\dimen182
+\l__fontspec_tmpb_dim=\dimen183
+\l__fontspec_tmpc_dim=\dimen184
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-<<t1.cmap>>) (/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
-Package: libertine 2023/11/26 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (/usr/share/texlive/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting with LuaLaTeX
+Lua module: lualatex-math 2013/08/03 v1.3 Patches for mathematics typesetting with LuaLaTeX)
+\g__um_fam_int=\count321
+\g__um_fonts_used_int=\count322
+\l__um_primecount_int=\count323
+\g__um_primekern_muskip=\muskip19
+ (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'libertinusmath-regular.otf(0)' created for
+(fontspec)             font 'libertinusmath-regular.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex},Scale={MatchUppercase}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
+
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(0)/m/n' will be
+(Font)              scaled to size 9.34195pt on input line 874.
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'libertinusmath-regular.otf(1)' created for
+(fontspec)             font 'libertinusmath-regular.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.1-},{Size=6.3-8.1,Font=libertinusmath-regular.otf,Style=MathScript},{Size=-6.3,Font=libertinusmath-regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Scale={MatchUppercase}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.1->s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"<6.3-8.1>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-6.3>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
+
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 9.34195pt on input line 874.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/libertinusmath-regular.otf(1)/m/n on input line 874.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/libertinusmath-regular.otf(1)/b/n on input line 874.
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'libertinusmath-regular.otf(2)' created for
+(fontspec)             font 'libertinusmath-regular.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.1-},{Size=6.3-8.1,Font=libertinusmath-regular.otf,Style=MathScript},{Size=-6.3,Font=libertinusmath-regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Scale={MatchUppercase},RawFeature={mathfontdimen=tex2}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.1->s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<6.3-8.1>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=0;"<-6.3>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/libertinusmath-regular.otf(2)/m/n on input line 874.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/libertinusmath-regular.otf(2)/b/n on input line 874.
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             libertinusmath-regular scale = 1.037989621392094.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'libertinusmath-regular.otf(3)' created for
+(fontspec)             font 'libertinusmath-regular.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.1-},{Size=6.3-8.1,Font=libertinusmath-regular.otf,Style=MathScript},{Size=-6.3,Font=libertinusmath-regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},Scale={MatchUppercase},RawFeature={mathfontdimen=tex3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.1->s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<6.3-8.1>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=0;"<-6.3>s*[1.037989621392094]"[libertinusmath-regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/libertinusmath-regular.otf(3)/m/n on input line 874.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 874.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/libertinusmath-regular.otf(3)/b/n on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 7.47354pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 5.60515pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 9.34195pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 7.47354pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 5.60515pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 9.34195pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 7.47354pt on input line 874.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 5.60515pt on input line 874.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 874.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 874.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
-LaTeX Info: Redefining \oldstylenums on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)) (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
-Package: zi4 2019/05/17 v1.12
- `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count301
-) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
-Package: newtxmath 2023/11/05 v1.732
- `newtxmath' v1.732, 2023/11/05 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
-Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
-)
-\tx@cntz=\count302
- (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count303
-\tx@IsAlNum=\count304
-\tx@tA=\toks34
-\tx@tB=\toks35
-\tx@su=\read2
 
-amsthm NOT loaded
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 390.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input line 390.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input line 390.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 391.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 397.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/LinuxBiolinumT-TLF/m/n on input line 397.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/LinuxBiolinumT-TLF/m/n on input line 397.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 398.
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(0)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX,Numbers
+(fontspec)             = {Monospaced,Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(1)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Renderer=Basic,Numbers
+(fontspec)             = {Monospaced,Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/libertinusmath-regular.otf(1)/m/n --> TU/LinLibertine(1)/m/n on input line 307.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input line 398.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input line 398.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 399.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 399.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 399.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 401.
+(Font)                  OT1/cmr/m/it --> TU/LinLibertine(1)/m/it on input line 307.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 401.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 401.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TLF/sb/it on input line 402.
+(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(1)/b/n on input line 307.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 307.
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinBiolinum(0)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX,Numbers
+(fontspec)             = {Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinBiolinum(1)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Renderer=Basic,Numbers
+(fontspec)             = {Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=base;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(1)/m/n on input line 318.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/b/n on input line 403.
+(Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(1)/b/n on input line 318.
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(2)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RZ scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RZ scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RZ scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RZI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RZI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(3)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             { Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_RZ,ItalicFont = *_RZI,BoldFont = *_RB,BoldItalicFont
+(fontspec)             = *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_RBI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(4)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,OldStyle},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(5)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *_DR,ItalicFont =
+(fontspec)             *_RI,BoldFont = *_RB,BoldItalicFont = *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_DR.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RBI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinBiolinum(2)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RI scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_RBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinBiolinum(3)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced, OldStyle},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]:mode=node;script=latn;language=dflt;+tlig;+tnum;+onum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             LinBiolinum_R scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_M scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_M scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_MB scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_MO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             LinLibertine_MBO scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine(6)' created for font
+(fontspec)             'LinLibertine' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,Scale = 1,UprightFont =
+(fontspec)             *_M,ItalicFont = *_MO,BoldFont = *_MB,BoldItalicFont =
+(fontspec)             *_MBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_M.otf]:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MB.otf]:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MO.otf]:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]:mode=node;script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinBiolinum_K(0)' created for font
+(fontspec)             'LinBiolinum_K' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinBiolinum_K.otf]:mode=node;script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LinLibertine_I(0)' created for font
+(fontspec)             'LinLibertine_I' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_I.otf]:mode=node;script=latn;language=dflt;"
+
+LaTeX Info: Redefining \oldstylenums on input line 475.
+LaTeX Info: Redefining \liningnums on input line 476.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex) (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex) (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex) (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex) (/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex)
+LaTeX Info: Redefining \textsup on input line 552.
+) (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/inconsolata.fontspec)
+
+Package fontspec Info: 
+(fontspec)             Font family 'inconsolata(0)' created for font
+(fontspec)             'inconsolata' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Extension
+(fontspec)             = .otf,UprightFont = Inconsolatazi4-Regular,BoldFont =
+(fontspec)             Inconsolatazi4-Bold,StylisticSet=3].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Regular.otf]:mode=node;script=latn;language=dflt;+ss03;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Bold.otf]:mode=node;script=latn;language=dflt;+ss03;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'inconsolata(1)' created for font
+(fontspec)             'inconsolata' with options [Extension =
+(fontspec)             .otf,UprightFont = Inconsolatazi4-Regular,BoldFont =
+(fontspec)             Inconsolatazi4-Bold,Renderer=Basic,StylisticSet=3].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Regular.otf]:mode=base;script=latn;language=dflt;+ss03;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Inconsolatazi4-Bold.otf]:mode=base;script=latn;language=dflt;+ss03;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/inconsolata(1)/m/n on input line 876.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/zi4/m/n --> T1/zi4/b/n on input line 404.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 422.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/nxlmi/m/it on input line 422.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/nxlmi/m/it on input line 422.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/nxlmi/m/it --> OML/nxlmi/b/it on input line 423.
-\symlettersA=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 562.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 564.
-Now handling font encoding LMS ...
-... no UTF-8 mapping file for font encoding LMS
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 583.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 583.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 583.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 583.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 583.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 584.
-\symAMSm=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
-(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 609.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 630.
-Now handling font encoding LMX ...
-... no UTF-8 mapping file for font encoding LMX
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 643.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 643.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 643.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 643.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 643.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 644.
-\symlargesymbolsTXA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 658.
-\tx@sbptoks=\toks36
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 881.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 882.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 883.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 884.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 889.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 890.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 892.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 894.
-LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 898.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 899.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 970.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 971.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 2044.
-LaTeX Info: Redefining \Bbbk on input line 2834.
-LaTeX Info: Redefining \not on input line 2982.
-LaTeX Info: Redefining \textsquare on input line 3012.
-LaTeX Info: Redefining \openbox on input line 3014.
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(Font)                  OT1/cmtt/m/n --> TU/inconsolata(1)/b/n on input line 876.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen182
-\captionmargin=\dimen183
-\caption@leftmargin=\dimen184
-\caption@rightmargin=\dimen185
-\caption@width=\dimen186
-\caption@indent=\dimen187
-\caption@parindent=\dimen188
-\caption@hangindent=\dimen189
+\caption@tempdima=\dimen185
+\captionmargin=\dimen186
+\caption@leftmargin=\dimen187
+\caption@rightmargin=\dimen188
+\caption@width=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
 Package caption Info: AMS or SMF document class detected.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto
 File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the AMS and SMF document classes (AR)
 ))
-\c@caption@flags=\count305
-\c@continuedfloat=\count306
+\c@caption@flags=\count324
+\c@continuedfloat=\count325
 Package caption Info: hyperref package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count307
-\float@exts=\toks37
-\float@box=\box55
-\@float@everytoks=\toks38
-\@floatcapt=\box56
+\c@float@type=\count326
+\float@exts=\toks36
+\float@box=\box57
+\@float@everytoks=\toks37
+\@floatcapt=\box58
 )
-\@float@every@sidebar=\toks39
-\c@sidebar=\count308
-\fulltextwidth=\dimen190
-\@ACM@labelwidth=\dimen191
-\listisep=\skip62
-\num@authorgroups=\count309
-\num@authors=\count310
-\@ACM@badge@width=\skip63
-\@ACM@title@width=\skip64
-\@ACM@badge@skip=\skip65
-Class acmart Info: Printing CCS on input line 1740.
-Class acmart Info: Printing bibformat on input line 1740.
-Class acmart Info: Suppressing folios on input line 1747.
-Class acmart Info: Setting authorsperrow to 0 on input line 1750.
+\@float@every@sidebar=\toks38
+\c@sidebar=\count327
+\fulltextwidth=\dimen193
+\@ACM@labelwidth=\dimen194
+\listisep=\skip63
+\num@authorgroups=\count328
+\num@authors=\count329
+\@ACM@badge@width=\skip64
+\@ACM@title@width=\skip65
+\@ACM@badge@skip=\skip66
+Class acmart Info: Printing CCS on input line 1806.
+Class acmart Info: Printing bibformat on input line 1806.
+Class acmart Info: Suppressing folios on input line 1813.
+Class acmart Info: Setting authorsperrow to 0 on input line 1816.
  (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
  Excluding comment 'comment') Excluding comment 'CCSXML'
-\c@@concepts=\count311
-\mktitle@bx=\box57
-\@ACM@acmcpbox=\box58
-\@ACM@commabox=\box59
-\author@bx=\box60
-\author@bx@wd=\dimen192
-\author@bx@sep=\skip66
+\c@@concepts=\count330
+\mktitle@bx=\box59
+\@ACM@acmcpbox=\box60
+\@ACM@commabox=\box61
+\author@bx=\box62
+\author@bx@wd=\dimen195
+\author@bx@sep=\skip67
  (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
-) Special comment 'acks'
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 3510.
- (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
-File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 3510.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip68
+\f@nch@offset@elh=\skip69
+\f@nch@offset@erh=\skip70
+\f@nch@offset@olh=\skip71
+\f@nch@offset@orh=\skip72
+\f@nch@offset@elf=\skip73
+\f@nch@offset@erf=\skip74
+\f@nch@offset@olf=\skip75
+\f@nch@offset@orf=\skip76
+\f@nch@height=\skip77
+\f@nch@footalignment=\skip78
+\f@nch@widthL=\skip79
+\f@nch@widthC=\skip80
+\f@nch@widthR=\skip81
+\@temptokenb=\toks39
+) Special comment 'acks') (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks40
 \inpenc@posthook=\toks41
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+LinLibertine(0) on input line 116.
+LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 116.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 116.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/LinLibertine(0)/m/n' undefined
+(Font)              using `T1/lmr/m/n' instead on input line 116.
+
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count312
-\U@D=\dimen193
-\l@unhyphenated=\language89
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count313
- (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@icelandic=\language4
+\l@italian=\language5
+\l@dutch=\language6
+\l@latin=\language7
+\l@afrikaans=\language8
+\l@gujarati=\language9
+\l@esperanto=\language10
+\l@pinyin=\language11
+\l@vietnamese=\language12
+\l@hebrew=\language13
+\l@ngerman=\language14
+\l@russian=\language15
+\l@hindi=\language16
+\l@friulan=\language17
+\l@czech=\language18
+\l@assamese=\language19
+\l@mongolian=\language20
+\l@kurmanji=\language21
+\l@hungarian=\language22
+\l@oriya=\language23
+\l@german-x-2024-02-28=\language24
+\l@greek=\language25
+\l@telugu=\language26
+\l@swedish=\language27
+\l@finnish=\language28
+\l@swissgerman=\language29
+\l@latvian=\language30
+\l@portuguese=\language31
+\l@macedonian=\language32
+\l@bulgarian=\language33
+\l@bokmal=\language34
+\l@romanian=\language35
+\l@catalan=\language36
+\l@monogreek=\language37
+\l@romansh=\language38
+\l@schoolfinnish=\language39
+\l@sanskrit=\language40
+\l@turkish=\language41
+\l@croatian=\language42
+\l@ngerman-x-2024-02-28=\language43
+\l@marathi=\language44
+\l@turkmen=\language45
+\l@occitan=\language46
+\l@pali=\language47
+\l@bengali=\language48
+\l@usenglishmax=\language49
+\l@polish=\language50
+\l@classiclatin=\language51
+\l@panjabi=\language52
+\l@churchslavonic=\language53
+\l@serbianc=\language54
+\l@estonian=\language55
+\l@mongolianlmc=\language56
+\l@galician=\language57
+\l@spanish=\language58
+\l@basque=\language59
+\l@piedmontese=\language60
+\l@indonesian=\language61
+\l@french=\language62
+\l@slovak=\language63
+\l@lithuanian=\language64
+\l@coptic=\language65
+\l@ukenglish=\language66
+\l@kannada=\language67
+\l@nynorsk=\language68
+\l@uppersorbian=\language69
+\l@serbian=\language70
+\l@ethiopic=\language71
+\l@ancientgreek=\language72
+\l@ibycus=\language73
+\l@irish=\language74
+\l@tamil=\language75
+\l@georgian=\language76
+\l@malayalam=\language77
+\l@german=\language78
+\l@liturgicallatin=\language79
+\l@interlingua=\language80
+\l@albanian=\language81
+\l@belarusian=\language82
+\l@arabic=\language83
+\l@farsi=\language84
+\l@ukrainian=\language85
+\l@slovenian=\language86
+\l@welsh=\language87
+\l@armenian=\language88
+\l@thai=\language89
+\l@danish=\language90
+\babelcatcodetablenum=\catcodetable18
+\bbl@pattcodes=\catcodetable19
+)
+\babel@savecnt=\count331
+\U@D=\dimen196
+\l@unhyphenated=\language91
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks42
-\es@quotdepth=\count314
+\es@quotdepth=\count332
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-es.tex UTF-8 Spanish hyphenation patterns (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-es.tex)))) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen194
-\ar@mcellbox=\box61
-\extrarowheight=\dimen195
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box63
+\extrarowheight=\dimen198
 \NC@list=\toks43
-\extratabsurround=\skip76
-\backup@length=\skip77
-\ar@cellbox=\box62
+\extratabsurround=\skip82
+\backup@length=\skip83
+\ar@cellbox=\box64
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen196
-\TX@old@table=\dimen197
-\TX@old@col=\dimen198
-\TX@target=\dimen199
-\TX@delta=\dimen256
-\TX@cols=\count315
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen199
+\TX@old@table=\dimen256
+\TX@old@col=\dimen257
+\TX@target=\dimen258
+\TX@delta=\dimen259
+\TX@cols=\count333
 \TX@ftn=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitkv@toks@=\toks45
-\labelindent=\skip78
-\enit@outerparindent=\dimen257
+\labelindent=\skip84
+\enit@outerparindent=\dimen260
 \enit@toks=\toks46
-\enit@inbox=\box63
-\enit@count@id=\count316
-\enitdp@description=\count317
+\enit@inbox=\box65
+\enit@count@id=\count334
+\enitdp@description=\count335
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
-Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
+Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen258
-\pgfutil@tempdimb=\dimen259
+\pgfutil@tempdima=\dimen261
+\pgfutil@tempdimb=\dimen262
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box64
+\pgfutil@abb=\box66
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -665,89 +1618,89 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks50
 ))
-\pgf@x=\dimen260
-\pgf@y=\dimen261
-\pgf@xa=\dimen262
-\pgf@ya=\dimen263
-\pgf@xb=\dimen264
-\pgf@yb=\dimen265
-\pgf@xc=\dimen266
-\pgf@yc=\dimen267
-\pgf@xd=\dimen268
-\pgf@yd=\dimen269
+\pgf@x=\dimen263
+\pgf@y=\dimen264
+\pgf@xa=\dimen265
+\pgf@ya=\dimen266
+\pgf@xb=\dimen267
+\pgf@yb=\dimen268
+\pgf@xc=\dimen269
+\pgf@yc=\dimen270
+\pgf@xd=\dimen271
+\pgf@yd=\dimen272
 \w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count318
-\c@pgf@countb=\count319
-\c@pgf@countc=\count320
-\c@pgf@countd=\count321
+\r@pgf@reada=\read3
+\c@pgf@counta=\count336
+\c@pgf@countb=\count337
+\c@pgf@countc=\count338
+\c@pgf@countd=\count339
 \t@pgf@toka=\toks51
 \t@pgf@tokb=\toks52
 \t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count322
+\pgf@sys@id@count=\count340
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+Driver file for pgf: pgfsys-luatex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count323
-\pgfsyssoftpath@bigbuffer@items=\count324
+\pgfsyssoftpath@smallbuffer@items=\count341
+\pgfsyssoftpath@bigbuffer@items=\count342
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen270
-\pgfmath@count=\count325
-\pgfmath@box=\box65
+\pgfmath@dimen=\dimen273
+\pgfmath@count=\count343
+\pgfmath@box=\box67
 \pgfmath@toks=\toks54
 \pgfmath@stack@operand=\toks55
 \pgfmath@stack@operation=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count326
+\c@pgfmathroundto@lastzeros=\count344
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen271
-\pgf@picmaxx=\dimen272
-\pgf@picminy=\dimen273
-\pgf@picmaxy=\dimen274
-\pgf@pathminx=\dimen275
-\pgf@pathmaxx=\dimen276
-\pgf@pathminy=\dimen277
-\pgf@pathmaxy=\dimen278
-\pgf@xx=\dimen279
-\pgf@xy=\dimen280
-\pgf@yx=\dimen281
-\pgf@yy=\dimen282
-\pgf@zx=\dimen283
-\pgf@zy=\dimen284
+\pgf@picminx=\dimen274
+\pgf@picmaxx=\dimen275
+\pgf@picminy=\dimen276
+\pgf@picmaxy=\dimen277
+\pgf@pathminx=\dimen278
+\pgf@pathmaxx=\dimen279
+\pgf@pathminy=\dimen280
+\pgf@pathmaxy=\dimen281
+\pgf@xx=\dimen282
+\pgf@xy=\dimen283
+\pgf@yx=\dimen284
+\pgf@yy=\dimen285
+\pgf@zx=\dimen286
+\pgf@zy=\dimen287
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen285
-\pgf@path@lasty=\dimen286
+\pgf@path@lastx=\dimen288
+\pgf@path@lasty=\dimen289
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen287
-\pgf@shorten@start@additional=\dimen288
+\pgf@shorten@end@additional=\dimen290
+\pgf@shorten@start@additional=\dimen291
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count327
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count345
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen289
+\pgflinewidth=\dimen292
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen290
-\pgf@pt@y=\dimen291
-\pgf@pt@temp=\dimen292
+\pgf@pt@x=\dimen293
+\pgf@pt@y=\dimen294
+\pgf@pt@temp=\dimen295
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -756,17 +1709,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen293
+\pgfarrowsep=\dimen296
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen294
-\pgf@sys@shading@range@num=\count328
-\pgf@shadingcount=\count329
+\pgf@max=\dimen297
+\pgf@sys@shading@range@num=\count346
+\pgf@shadingcount=\count347
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box69
+\pgfexternal@startupbox=\box71
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -777,62 +1730,62 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box70
+\pgfnodeparttextbox=\box72
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
 \pgffor@stack=\toks57
 \pgffor@toks=\toks58
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count330
-\pgfplotmarksize=\dimen299
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen302
 )
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikz@lastmovetox=\dimen304
-\tikz@lastmovetoy=\dimen305
-\tikzleveldistance=\dimen306
-\tikzsiblingdistance=\dimen307
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count331
-\tikznumberofchildren=\count332
-\tikznumberofcurrentchild=\count333
-\tikz@fig@count=\count334
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count335
-\pgfmatrixcurrentcolumn=\count336
-\pgf@matrix@numberofcolumns=\count337
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
 )
-\tikz@expandcount=\count338
+\tikz@expandcount=\count356
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen308
+\arrowsize=\dimen311
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box75
-\pgf@layerboxsaved@background=\box76
+\pgf@layerbox@background=\box77
+\pgf@layerboxsaved@background=\box78
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
@@ -847,165 +1800,123 @@ File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count339
-\pgf@cal@easter@Y=\count340
-\pgf@cal@easter@G=\count341
-\pgf@cal@easter@C=\count342
-\pgf@cal@easter@X=\count343
-\pgf@cal@easter@Z=\count344
-\pgf@cal@easter@D=\count345
-\pgf@cal@easter@E=\count346
-\pgf@cal@easter@N=\count347
-\pgf@cal@easter@M=\count348
-\pgf@cal@easter@julianday=\count349
+\pgfcalendarcurrentjulian=\count357
+\pgf@cal@easter@Y=\count358
+\pgf@cal@easter@G=\count359
+\pgf@cal@easter@C=\count360
+\pgf@cal@easter@X=\count361
+\pgf@cal@easter@Z=\count362
+\pgf@cal@easter@D=\count363
+\pgf@cal@easter@E=\count364
+\pgf@cal@easter@N=\count365
+\pgf@cal@easter@M=\count366
+\pgf@cal@easter@julianday=\count367
 ))
-\gtt@currentline=\count350
-\gtt@lasttitleline=\count351
-\gtt@currgrid=\count352
-\gtt@chartwidth=\count353
-\gtt@lasttitleslot=\count354
-\gtt@elementid=\count355
-\gtt@today@slot=\count356
-\gtt@startjulian=\count357
-\gtt@endjulian=\count358
-\gtt@chartid=\count359
-\gtt@vrule@slot=\count360
-\gtt@calendar@slots=\count361
-\gtt@calendar@weeknumber=\count362
-\gtt@calendar@startofweek=\count363
-\gtt@left@slot=\count364
-\gtt@right@slot=\count365
+\gtt@currentline=\count368
+\gtt@lasttitleline=\count369
+\gtt@currgrid=\count370
+\gtt@chartwidth=\count371
+\gtt@lasttitleslot=\count372
+\gtt@elementid=\count373
+\gtt@today@slot=\count374
+\gtt@startjulian=\count375
+\gtt@endjulian=\count376
+\gtt@chartid=\count377
+\gtt@vrule@slot=\count378
+\gtt@calendar@slots=\count379
+\gtt@calendar@weeknumber=\count380
+\gtt@calendar@startofweek=\count381
+\gtt@left@slot=\count382
+\gtt@right@slot=\count383
 )
 Class acmart Info: Printing bibformat on input line 31.
-Class acmart Info: Suppressing bibformat on input line 59.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 60.
-\c@theorem=\count366
+Class acmart Info: Suppressing bibformat on input line 58.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 59.
+\c@theorem=\count384
  (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen309
-) Excluding comment 'screenonly' Include comment 'printonly' Include comment 'anonsuppress' (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count367
-\l__pdf_internal_box=\box77
-) (./main.aux
+\oldvsize=\dimen312
+) Excluding comment 'screenonly' Include comment 'printonly' Include comment 'anonsuppress' (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
-\openout1 = `main.aux'.
+\openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 60.
-LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
-File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
-)
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
-File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
-)
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
-File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
-)
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
-File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
-)
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 60.
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
-File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 60.
-<<ot1.cmap>>
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 60.
-<<oml.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
-File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 60.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 60.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 60.
-LaTeX Info: Command `\dddot' is already robust on input line 60.
-LaTeX Info: Command `\ddddot' is already robust on input line 60.
-LaTeX Info: Redefining \microtypecontext on input line 60.
-Package microtype Info: Applying patch `item' on input line 60.
-Package microtype Info: Applying patch `toc' on input line 60.
-Package microtype Info: Applying patch `eqnum' on input line 60.
-Package microtype Info: Applying patch `footnote' on input line 60.
-Package microtype Info: Applying patch `verbatim' on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 7.26596pt on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 5.18997pt on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 7.26596pt on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 5.18997pt on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 7.26596pt on input line 59.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 5.18997pt on input line 59.
+
+
+LaTeX Font Warning: Font shape `T1/LinLibertine(0)/m/it' undefined
+(Font)              using `T1/LinLibertine(0)/m/n' instead on input line 59.
+
+LaTeX Info: Redefining \microtypecontext on input line 59.
+Package microtype Info: Applying patch `item' on input line 59.
+Package microtype Info: Applying patch `toc' on input line 59.
+Package microtype Info: Applying patch `eqnum' on input line 59.
+Package microtype Info: Applying patch `footnote' on input line 59.
+Package microtype Info: Applying patch `verbatim' on input line 59.
+LaTeX Info: Redefining \microtypesetup on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 59.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: T1).
+(microtype)             `LinLibertine' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 60.
- (./main.out) (./main.out)
+Package hyperref Info: Link coloring OFF on input line 59.
+(/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.out) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
 
+\openout5 = main.out
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen310
-\scratchbox=\box78
-\nofMPsegments=\count369
-\nofMParguments=\count370
+\scratchcounter=\count385
+\scratchdimen=\dimen313
+\scratchbox=\box79
+\nofMPsegments=\count386
+\nofMParguments=\count387
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen311
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
+\MPscratchCnt=\count388
+\MPscratchDim=\dimen314
+\MPnumerator=\count389
+\makeMPintoPDFobject=\count390
 \everyMPtoPDFconversion=\toks60
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1014,9 +1925,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1047,180 +1958,235 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count374
-\c@mv@boldtabular=\count375
-(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
-)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
-<imagenes/logo_uam.png, id=166, 1903.11pt x 526.96875pt>
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+<imagenes/logo_uam.png, id=163, 1903.11pt x 526.96875pt>
 File: imagenes/logo_uam.png Graphic file (type png)
 <use imagenes/logo_uam.png>
-Package pdftex.def Info: imagenes/logo_uam.png  used on input line 72.
-(pdftex.def)             Requested size: 141.76198pt x 39.24756pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 75.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 78.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 78.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 81.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 81.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 85.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 94.
- [0.1
+Package luatex.def Info: imagenes/logo_uam.png  used on input line 71.
+(luatex.def)             Requested size: 405.03754pt x 112.15427pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc} <./imagenes/logo_uam.png>] Excluding 'CCSXML' comment.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 143.
- (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
-File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 143.
+LaTeX Font Warning: Font shape `T1/LinLibertine(0)/b/n' undefined
+(Font)              using `T1/LinLibertine(0)/m/n' instead on input line 81.
+
+
+
+[0.1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./imagenes/logo_uam.png>] Excluding 'CCSXML' comment.
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 147.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
+(microtype)             `LinBiolinum' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 143.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 143.
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 147.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 147.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
+(microtype)             `LinLibertine' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 10.37994pt on input line 147.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `libertinusmath-regular.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 10.37994pt on input line 147.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 10.37994pt on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 143.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 143.
- (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
+LaTeX Font Info:    Trying to load font information for TS1+LinLibertine(0) on input line 147.
+LaTeX Font Info:    No file TS1LinLibertine(0).fd. on input line 147.
+
+
+LaTeX Font Warning: Font shape `TS1/LinLibertine(0)/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 143.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
+(microtype)             `LinLibertine' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./sections/01_introduccion.tex [1.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
+ (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/01_introduccion.tex
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]) (./sections/02_marco_teorico.tex
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 29.
- [2.3]
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+
+
+[1.2
+
+
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+]
+Overfull \hbox (12.06444pt too wide) in paragraph at lines 49--50
+[]\T1/LinLibertine(0)/b/n/9 In-cor-po-ra prin-ci-pios de In-ter-ac-ción Humano-Computadora
+ []
+
+) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/02_marco_teorico.tex
+
+
+Underfull \vbox (badness 6396) has occurred while \output is active []
+
+
+
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 23.
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 23.
+[2.3
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+]
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 38.
- [3.4]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 124.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 125.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 125.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
-) (./sections/03_estado_del_arte.tex [4.5]
-Overfull \hbox (7.77122pt too wide) in paragraph at lines 76--76
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (-20) Notificaciones
+
+
+
+
+[3.4
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+]
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 8.30396pt on input line 125.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(1)/m/n' will be
+(Font)              scaled to size 6.22797pt on input line 125.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 8.30396pt on input line 125.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
+(Font)              scaled to size 6.22797pt on input line 125.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 8.30396pt on input line 125.
+LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
+(Font)              scaled to size 6.22797pt on input line 125.
+
+Underfull \hbox (badness 1389) in paragraph at lines 129--130
+[]|\T1/LinLibertine(0)/b/n/8 Mo-de-lo publisher-subscriber, des-aco-pla-
+ []
+
+
+Overfull \hbox (13.7231pt too wide) in paragraph at lines 125--142
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/03_estado_del_arte.tex
+
+[4.5
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/LinLibertine(0)/b/n/8 No-ti-fi-ca-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\T1/LinuxLibertineT-TLF/b/n/8 (+20) en tiem-po
+\T1/LinLibertine(0)/b/n/8 cio-nes en
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (+20) Arquitectura
+[]|\T1/LinLibertine(0)/b/n/8 Ar-qui-tec-tu-ra
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (+20) Integraci�n
+[]|\T1/LinLibertine(0)/b/n/8 In-te-gra-ción
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Centralizada
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) (ser-vi-do-res de
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 80--80
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) S� (ca-na-les p�-
+[]|\T1/LinLibertine(0)/b/n/8 Cen-tra-li-za-da
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Centralizada
+[]|\T1/LinLibertine(0)/b/n/8 Cen-tra-li-za-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) (ser-vi-do-res de
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/LinLibertine(0)/b/n/8 Slack/Dis-
  []
 
 
-Overfull \hbox (4.32767pt too wide) in paragraph at lines 82--82
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (-20) Slack/Discord| 
+Underfull \hbox (badness 1748) in paragraph at lines 82--82
+[]|\T1/LinLibertine(0)/b/n/8 Par-cial (den-
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 82--82
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Parcial (den-tro
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]|\T1/LinLibertine(0)/b/n/8 Sí (LDAP,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Apps ins-ti-
+[]|\T1/LinLibertine(0)/b/n/8 No (avi-sos
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 86--86
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Parcial (pull
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\T1/LinLibertine(0)/b/n/8 uni-di-rec-cio-na-
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 88--88
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (+20) Noti Uam
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\T1/LinLibertine(0)/b/n/8 Par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\T1/LinLibertine(0)/b/n/8 (pull o
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 86--86
+\T1/LinLibertine(0)/b/n/8 push bá-si-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\T1/LinuxLibertineT-TLF/b/n/8 (+20) (pro-pues-
+\T1/LinLibertine(0)/b/n/8 (pro-pues-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (+20) Distribuida
+[]|\T1/LinLibertine(0)/b/n/8 Dis-tri-bui-da
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\T1/LinuxLibertineT-TLF/b/n/8 (+20) (mi-cro-ser-vi-
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 88--89
-[]|\T1/LinuxLibertineT-TLF/b/n/8 (+20) S� (JWT, SSO
+\T1/LinLibertine(0)/b/n/8 (mi-cro-ser-vi-
  []
 
 
@@ -1228,172 +2194,218 @@ Overfull \hbox (47.4104pt too wide) in paragraph at lines 74--91
  [][] 
  []
 
-) (./sections/04_objetivos.tex [5.6]
+
+Underfull \vbox (badness 2088) has occurred while \output is active []
+
+
+
+[5.6]) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/04_objetivos.tex
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\T1/LinLibertine(0)/b/n/8 sis-te-mas dis-tri-bui-dos [[]],
+ []
+
+
 Overfull \hbox (7.67453pt too wide) in paragraph at lines 50--61
  [][] 
  []
 
-Excluding 'comment' comment.) (./sections/05_hipotesis.tex Excluding 'comment' comment.) (./sections/06_metodologia.tex [6.7]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 51.
- (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 51.
+
+
+[6.7] Excluding 'comment' comment.) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/05_hipotesis.tex Excluding 'comment' comment.) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/06_metodologia.tex
+
+
+
+[7.8
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no — (U+2014) in font ec-lmr9!
+Missing character: There is no “ (U+201C) in font ec-lmr9!
+Missing character: There is no ” (U+201D) in font ec-lmr9!
+]
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: T1).
+(microtype)             `inconsolata' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (3.48227pt too wide) in paragraph at lines 98--99
-[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Configurar pro-yec-to Flut-ter con ar-qui-tec-tu-ra MVC (o BLoC). 
- []
 
-[7.8{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}]
-Overfull \hbox (30.99689pt too wide) in paragraph at lines 104--105
-[]\T1/LinuxLibertineT-TLF/b/n/9 (-20) Entregables\T1/LinuxLibertineT-TLF/m/n/9 (-20) : C�-di-go fuen-te Flut-ter, ar-chi-vo \T1/zi4/m/n/9 google-services.json
- []
+
 
 [8.9]
+
 <imagenes/metodologia_flujo.png, id=336, 860.21375pt x 3998.94pt>
 File: imagenes/metodologia_flujo.png Graphic file (type png)
 <use imagenes/metodologia_flujo.png>
-Package pdftex.def Info: imagenes/metodologia_flujo.png  used on input line 164.
-(pdftex.def)             Requested size: 101.25745pt x 470.69928pt.
-
+Package luatex.def Info: imagenes/metodologia_flujo.png  used on input line 164.
+(luatex.def)             Requested size: 101.25745pt x 470.69928pt.
 
 Class acmart Warning: A possible image without description on input line 167.
 
 <imagenes/arquitectura_componentes.png, id=337, 722.7pt x 634.37pt>
 File: imagenes/arquitectura_componentes.png Graphic file (type png)
 <use imagenes/arquitectura_componentes.png>
-Package pdftex.def Info: imagenes/arquitectura_componentes.png  used on input line 171.
-(pdftex.def)             Requested size: 151.89003pt x 133.31842pt.
+Package luatex.def Info: imagenes/arquitectura_componentes.png  used on input line 171.
+(luatex.def)             Requested size: 151.89003pt x 133.31842pt.
 
 Class acmart Warning: A possible image without description on input line 174.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<imagenes/secuencia_publicacion.png, id=338, 703.62875pt x 453.695pt>
+
+
+[9.10<./imagenes/metodologia_flujo.png>]
+<imagenes/secuencia_publicacion.png, id=349, 703.62875pt x 453.695pt>
 File: imagenes/secuencia_publicacion.png Graphic file (type png)
 <use imagenes/secuencia_publicacion.png>
-Package pdftex.def Info: imagenes/secuencia_publicacion.png  used on input line 178.
-(pdftex.def)             Requested size: 151.89003pt x 97.93712pt.
+Package luatex.def Info: imagenes/secuencia_publicacion.png  used on input line 178.
+(luatex.def)             Requested size: 151.89003pt x 97.93712pt.
 
 
 Class acmart Warning: A possible image without description on input line 181.
 
-<imagenes/actividades_usabilidad.png, id=339, 354.32375pt x 472.76625pt>
+<imagenes/actividades_usabilidad.png, id=350, 354.32375pt x 472.76625pt>
 File: imagenes/actividades_usabilidad.png Graphic file (type png)
 <use imagenes/actividades_usabilidad.png>
-Package pdftex.def Info: imagenes/actividades_usabilidad.png  used on input line 185.
-(pdftex.def)             Requested size: 177.20633pt x 236.44746pt.
+Package luatex.def Info: imagenes/actividades_usabilidad.png  used on input line 185.
+(luatex.def)             Requested size: 177.20633pt x 236.44746pt.
 
 Class acmart Warning: A possible image without description on input line 188.
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 203--203
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Fallo del bro-ker
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\T1/LinLibertine(0)/b/n/8 Pér-di-da de
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 205--205
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Alta la-ten-cia en
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\T1/LinLibertine(0)/b/n/8 even-tos en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+[]|\T1/LinLibertine(0)/b/n/8 Con-fi-gu-rar
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 203--204
+\T1/LinLibertine(0)/b/n/8 re-pli-ca-ción de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\T1/LinLibertine(0)/b/n/8 par-ti-cio-nes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\T1/LinLibertine(0)/b/n/8 Pro-metheus;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\T1/LinLibertine(0)/b/n/8 res-pal-do con
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--205
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) no-ti-fi-ca-cio-nes
+\T1/LinLibertine(0)/b/n/8 no-ti-fi-ca-cio-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Muestra in-su-
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]|\T1/LinLibertine(0)/b/n/8 Op-ti-mi-zar la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) fi-cien-te pa-ra
+Underfull \hbox (badness 2326) in paragraph at lines 207--208
+\T1/LinLibertine(0)/b/n/8 vos; coor-di-nar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Ofrecer in-cen-ti-
+Underfull \hbox (badness 1675) in paragraph at lines 207--208
+\T1/LinLibertine(0)/b/n/8 con pro-fe-so-res
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) vos; coor-di-nar
+Underfull \hbox (badness 5431) in paragraph at lines 207--208
+\T1/LinLibertine(0)/b/n/8 pa-ra so-li-ci-tud
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) con pro-fe-so-res
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) pa-ra so-li-ci-tud
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) de apo-yo a la
+Underfull \hbox (badness 6608) in paragraph at lines 209--209
+[]|\T1/LinLibertine(0)/b/n/8 Pro-ble-mas de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Problemas de
+\T1/LinLibertine(0)/b/n/8 com-pa-ti-bi-li-dad
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) com-pa-ti-bi-li-dad
+\T1/LinLibertine(0)/b/n/8 en-tre Flut-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) en-tre Flut-ter
+Underfull \hbox (badness 2865) in paragraph at lines 209--210
+\T1/LinLibertine(0)/b/n/8 res y dis-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) y ver-sio-nes de
- []
-
-
-Underfull \hbox (badness 3128) in paragraph at lines 211--212
-[]|\T1/LinuxLibertineT-TLF/m/n/8 (+20) Priorizar fun-cio-
+Underfull \hbox (badness 2181) in paragraph at lines 211--211
+[]|\T1/LinLibertine(0)/b/n/8 So-bre-car-ga de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) (MVP); apli-car
+[]|\T1/LinLibertine(0)/b/n/8 Prio-ri-zar
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) me-to-do-lo-g�a
+\T1/LinLibertine(0)/b/n/8 fun-cio-na-li-da-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 211--212
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) en-tre-gar al me-
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 des crí-ti-cas
  []
 
-[9.10 <./imagenes/metodologia_flujo.png> <./imagenes/arquitectura_componentes.png> <./imagenes/secuencia_publicacion.png> <./imagenes/actividades_usabilidad.png>]) (./sections/07_cronograma.tex
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 62.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 5.0pt on input line 62.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 62.
 
-Missing character: There is no , in font nullfont!
-[10.11]) (./main.bbl
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 43.
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 me-to-do-lo-gía
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 in-cre-men-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 pa-ra en-tre-gar
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 al me-nos un
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 211--212
+\T1/LinLibertine(0)/b/n/8 pro-to-ti-po fun-
+ []
+
+
+
+
+
+[10.11<./imagenes/arquitectura_componentes.png><./imagenes/secuencia_publicacion.png><./imagenes/actividades_usabilidad.png>]) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/sections/07_cronograma.tex
+
+) (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.bbl
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 66.
 )
 
 Class acmart Warning: Some images may lack descriptions.
@@ -1404,34 +2416,52 @@ Class acmart Warning: ACM reference format is mandatory
 (acmart)              Please add printacmref=true to the 
 (acmart)              \settopmatter command..
 
+
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [11.12] (./main.aux
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
+File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
+) [11.12
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no – (U+2013) in font ec-lmr9!
+Missing character: There is no – (U+2013) in font ec-lmr9!
+Missing character: There is no – (U+2013) in font ec-lmr9!
+Missing character: There is no – (U+2013) in font ec-lmr9!
+] (/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2139BA414F9AABA560082F9DB53F8F25;8925.
- ) 
-Here is how much of TeX's memory you used:
- 35962 strings out of 474222
- 666555 string characters out of 5748733
- 1982975 words of memory out of 5000000
- 56667 multiletter control sequences out of 15000+600000
- 754871 words of font info for 485 fonts, out of 8000000 for 9000
- 1302 hyphenation exceptions out of 8191
- 99i,12n,131p,1036b,1038s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (12 pages, 863905 bytes).
-PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 147 named destinations out of 1000 (max. 500000)
- 101230 words of extra memory for PDF output out of 106986 (max. 10000000)
+)
+
+Here is how much of LuaTeX's memory you used:
+ 48578 strings out of 475512
+ 195475,1977958 words of node,token memory allocated
+ 780 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 6 kern, 1 penalty, 2 margin_kern, 8 glyph, 31 attribute, 70 glue_spec, 17 attribute_list, 3 write, 2 pdf_action, 2 pdf_colorstack nodes
+   avail lists: 1:3,2:11021,3:4410,4:403,5:667,6:172,7:15358,8:64,9:2207,10:25,11:2166
+ 70441 multiletter control sequences out of 65536+600000
+ 138 fonts using 39639903 bytes
+ 105i,12n,128p,1044b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/opentype/public/inconsolata/Inconsolatazi4-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_RI.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_R.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf>{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_RB.otf></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb>
+Output written on main.pdf (12 pages, 795578 bytes).
+
+PDF statistics: 463 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 147 named destinations out of 1000 (max. 131072)
+ 333 words of extra memory for PDF output out of 10000 (max. 100000000)
 

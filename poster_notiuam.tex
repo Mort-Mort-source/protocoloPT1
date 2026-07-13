@@ -29,14 +29,16 @@
     \vspace{0.1cm}  % Reducido
     
     % Bloque 1: Introducción
-    \begin{block}{\Large 1. Introducción}La comunicación en el ámbito universitario depende de plataformas externas, como \textit{WhatsApp}, las redes sociales y el correo electrónico, entre otras. Esta dependencia propicia la fragmentación de la información, dificulta la difusión y el descubrimiento oportuno de eventos, y favorece la circulación de información errónea o descontextualizada. Aunque más del 80\% de los estudiantes utiliza estas herramientas como principal medio de comunicación, diversos reportes evidencian problemas de sobrecarga informativa y pérdida de información relevante. Es necesario desarrollar una plataforma institucional, abierta y distribuida que centralice la gestión de avisos y notificaciones, garantizando una comunicación más eficiente y en tiempo real.
-    \end{block}
+    
 
     \begin{tcolorbox}[colframe=white, colback=white, height=0.1cm, left=0pt, right=0pt, top=0pt, bottom=0pt, boxsep=0pt]
     \end{tcolorbox}
 
     % Columna izquierda
     \begin{minipage}[t]{0.48\textwidth}
+        \begin{block}{\Large 1. Introducción}La comunicación en el ámbito universitario depende de plataformas externas, como \textit{WhatsApp}, las redes sociales y el correo electrónico, entre otras. Esta dependencia propicia la fragmentación de la información, dificulta la difusión y el descubrimiento oportuno de eventos, y favorece la circulación de información errónea o descontextualizada. Aunque más del 80\% de los estudiantes utiliza estas herramientas como principal medio de comunicación, diversos reportes evidencian problemas de sobrecarga informativa y pérdida de información relevante. Es necesario desarrollar una plataforma institucional, abierta y distribuida que centralice la gestión de avisos y notificaciones, garantizando una comunicación más eficiente y en tiempo real.
+    \end{block}
+
         \begin{block}{\Large 2. Justificación}
             
             \begin{itemize}[leftmargin=*, itemsep=1pt]
@@ -65,22 +67,7 @@
                 \item Diseñar e implementar canales, suscripciones y autenticación con PostgreSQL, Redis y JWT.
             \end{enumerate}
         \end{block}
-    \end{minipage}
-    \hspace{0.02\textwidth}%
-    \begin{minipage}[t]{0.48\textwidth}
-        \begin{block}{\Large 4. Escenario de Uso}
-            \begin{center}
-                \includegraphics[width=0.7\linewidth]{imagenes/arquitectura_componentes_cartel.png}
-            \end{center}
-            \vspace{0.1cm}
-            \small{La arquitectura sigue el modelo publisher-subscriber: la app móvil se comunica con el API Gateway (Spring Boot), que publica eventos en Kafka; un Worker consume y envía notificaciones push mediante FCM.}
-        \end{block}
-    \end{minipage}
 
-    \vspace{0.2cm}  % Reducido
-
-    % Fila inferior (dos columnas)
-    \begin{minipage}[t]{0.48\textwidth}
         \begin{block}{\Large 5. Estado del Arte}
             \small{Características que diferencian a \emph{Noti Uam} de soluciones existentes:}
             \begin{table}[H]
@@ -102,10 +89,20 @@
                 \end{tabular}
             \end{table}
         \end{block}
+
+ 
+
     \end{minipage}
     \hspace{0.02\textwidth}%
     \begin{minipage}[t]{0.48\textwidth}
-        \begin{block}{\Large 6. Metodología}
+        \begin{block}{\Large 4. Escenario de Uso}
+            \begin{center}
+                \includegraphics[width=0.7\linewidth]{imagenes/arquitectura_componentes_cartel.png}
+            \end{center}
+            \vspace{0.1cm}
+            \small{La arquitectura sigue el modelo publisher-subscriber: la app móvil se comunica con el API Gateway (Spring Boot), que publica eventos en Kafka; un Worker consume y envía notificaciones push mediante FCM.}
+        \end{block}
+               \begin{block}{\Large 6. Metodología}
             Desarrollo incremental en 9 fases distribuidas en 3 trimestres (33 semanas):
             \begin{itemize}[leftmargin=*, itemsep=1pt]
                 \item \textbf{PT I}: Análisis de requerimientos, diseño de la arquitectura.
@@ -114,8 +111,6 @@
             \end{itemize}
             Se aplican encuestas, entrevistas y pruebas con estudiantes para validar usabilidad y rendimiento.
         \end{block}
-
-        \vspace{0.2cm}
 
         \begin{block}{\Large 7. Resultados Esperados}
             \begin{itemize}[leftmargin=*, itemsep=1pt]
@@ -127,6 +122,7 @@
             \vspace{0.1cm}
         \end{block}
     \end{minipage}
+
 
 \end{frame}
 \end{document}

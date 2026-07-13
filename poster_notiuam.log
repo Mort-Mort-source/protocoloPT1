@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.8.15)  13 JUL 2026 12:18
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.8.15)  13 JUL 2026 12:49
  system commands enabled.
  file:line:error style messages enabled.
 **/Cthulu/Academic/UAMC/Alumni/Aaron/protocoloPT1/poster_notiuam
@@ -1208,6 +1208,11 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <27.86687> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.905> not available
 (Font)              size <20.74> substituted on input line 127.
 
+
+Underfull \hbox (badness 2088) in paragraph at lines 127--127
+[]\T1/lmr/bx/n/39.81 No-tiUam \T1/lmr/m/n/39.81 es una pla-ta-for-ma dis-tri-bui-da ba-sa-da en el mo-de-lo
+ []
+
 LaTeX Font Info:    Calculating math sizes for size <27.65> on input line 127.
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <27.65> not available
@@ -1287,15 +1292,15 @@ Package rerunfilecheck Info: File `poster_notiuam.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  32222 strings out of 475512
- 244182,1373583 words of node,token memory allocated
- 57154 words of node memory still in use:
-   391 hlist, 40 vlist, 78 rule, 1 adjust, 594 disc, 51 local_par, 6 math, 1372 glue, 169 kern, 152 penalty, 3304 glyph, 2866 attribute, 79 glue_spec, 1435 attribute_list, 4 write, 681 pdf_literal, 132 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:736,3:2676,4:561,5:567,6:177,7:14590,8:1,9:1764,10:28,11:1815
+ 244183,1373583 words of node,token memory allocated
+ 57126 words of node memory still in use:
+   391 hlist, 40 vlist, 78 rule, 1 adjust, 594 disc, 51 local_par, 6 math, 1369 glue, 169 kern, 152 penalty, 3303 glyph, 2866 attribute, 79 glue_spec, 1435 attribute_list, 4 write, 681 pdf_literal, 132 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:2,2:736,3:2676,4:561,5:567,6:177,7:14578,8:1,9:1764,10:28,11:1815
  54198 multiletter control sequences out of 65536+600000
  85 fonts using 5719527 bytes
  128i,18n,116p,876b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on poster_notiuam.pdf (1 page, 1629282 bytes).
+Output written on poster_notiuam.pdf (1 page, 1628952 bytes).
 
 PDF statistics: 49 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream

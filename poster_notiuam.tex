@@ -60,8 +60,8 @@
             \textbf{Específicos:}
             \begin{enumerate}[leftmargin=*, itemsep=1pt]
                 \item Diseñar una arquitectura basada en pub-sub, microservicios y contenerización.
-                \item Diseñar e implementar una app móvil multiplataforma con Flutter usable (IHC).
-                \item Diseñar e implementar canales, suscripciones y autenticación con PostgreSQL, Redis y JWT.
+                \item Diseñar e implementar una \textit{app} móvil multiplataforma con \textit{Flutter} usable (\textit{IHC}).
+                \item Diseñar e implementar canales, suscripciones y autenticación con \textit{PostgreSQL}, \textit{Redis} y \textit{JWT}.
             \end{enumerate}
         \end{block}
 
@@ -79,7 +79,7 @@
                     Canales abiertos & No & Sí (públicos) & No & \textbf{Sí} \\
                     Notificaciones push & Sí & Sí & No & \textbf{Sí} \\
                     Arquitectura distribuida & No & No & No & \textbf{Sí (pub-sub)} \\
-                    Autenticación institucional & No & Parcial (bots) & Sí & \textbf{Sí (JWT)} \\
+                    Autenticación institucional & No & Parcial (bots) & Sí & \textbf{Sí (\textit{JWT})} \\
                     Usabilidad validada & No & No & No & \textbf{Sí (pruebas SUS)} \\
                     Enfoque educativo & No & No & Sí (consulta) & \textbf{Sí (comunidad)} \\
                     \bottomrule
@@ -97,7 +97,7 @@
                 \includegraphics[width=0.7\linewidth]{imagenes/arquitectura_componentes_cartel.png}
             \end{center}
             \vspace{0.1cm}
-            \small{La arquitectura sigue el modelo publisher-subscriber: la app móvil se comunica con el API Gateway (Spring Boot), que publica eventos en Kafka; un Worker consume y envía notificaciones push mediante FCM.}
+            \small{La arquitectura sigue el modelo publisher-subscriber: la \textit{app} móvil se comunica con el \textit{API Gateway (Spring Boot)}, que publica eventos en \textit{Kafka}; un \textit{Worker} consume y envía notificaciones push mediante \textit{FCM}.}
         \end{block}
                \begin{block}{\Large 6. Metodología}
             Desarrollo incremental en 9 fases distribuidas en 3 trimestres (33 semanas):

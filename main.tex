@@ -1,9 +1,4 @@
-% =========================================================
-% Archivo: main.tex
-% Protocolo PT1 - UAM Cuajimalpa
-% =========================================================
-
-\documentclass[sigconf, spanish]{acmart}
+\documentclass[11pt,spanish]{article}
 
 % =========================================================
 % CONFIGURACIÓN GENERAL
@@ -21,41 +16,20 @@
 \usepackage{pgfgantt}
 \usepackage{caption}
 \usepackage{comment}
+\usepackage{url}
+\usepackage[a4paper,margin=2.2cm]{geometry}
 
-% =========================================================
-% CONFIGURACIÓN ACM
-% =========================================================
-
-\setcopyright{none}
-\pagestyle{plain}
-\settopmatter{printacmref=true}
-\renewcommand\footnotetextcopyrightpermission[1]{}
-
-\acmConference[Proyecto Terminal I]{Proyecto Terminal I}{UAM Cuajimalpa}{2026}
-\acmBooktitle{Protocolo de Proyecto Terminal I}
-\acmDOI{}
-\acmISBN{}
 % =========================================================
 % DATOS DEL DOCUMENTO
 % =========================================================
 
 \title{Plataforma distribuida de comunicación y alertas comunitarias para entornos universitarios (Noti Uam)}
-
 \author{Aaron Rodrigo Ramos Reyes}
-\affiliation{%
-  \institution{Universidad Autónoma Metropolitana, Unidad Cuajimalpa}
-  \city{Ciudad de México}
-  \country{México}
-}
-\email{aaron.r.ramos@cua.uam.mx}
-
-% --- ASESOR (campo obligatorio en la guía UAM) ---
-\renewcommand{\shortauthors}{Ramos Reyes, A. R.}
+\date{2026}
 
 % =========================================================
 % DOCUMENTO
 % =========================================================
-\settopmatter{printacmref=false}
 \begin{document}
 
 % =========================================================
@@ -71,18 +45,18 @@
     \includegraphics[width=0.8\textwidth]{imagenes/logo_uam.png}
     \vskip 1.5cm
 
-    {\Huge División de Ciencias de la Comunicación y Diseño}
+    {\Large División de Ciencias de la Comunicación y Diseño}
     \vskip 0.2cm
-    {\Huge  Departamento de Tecnologías de la Información} 
+    {\Large  Departamento de Tecnologías de la Información} 
     \vskip 0.2cm
-    {\Huge Licenciatura en Tecnologías y Sistemas de Información\par}
+    {\Large Licenciatura en Tecnologías y Sistemas de Información\par}
     \vskip 3cm
 
-    {\Huge\bfseries Protocolo de Proyecto Terminal I \par}
-    \vskip 1.5cm
+    {\Large\bfseries Protocolo de Proyecto Terminal I \par}
+    \vskip 0.5cm
 
-    {\Huge \bfseries Plataforma distribuida de comunicación y alertas comunitarias\\ para entornos universitarios: Noti Uam\par}
-    \vskip 4cm
+    {\Large \bfseries Plataforma distribuida de comunicación y alertas comunitarias para entornos universitarios: NotiUam\par}
+    \vskip 2cm
 
     \begin{tabular}{rl}
         \textbf{Alumno:} & Aaron Rodrigo Ramos Reyes \\
@@ -95,7 +69,7 @@
 
     \vfill
 
-    {\large Ciudad de México, México\\ 2026 \par}
+    {\large Ciudad de México\\ 2026 \par}
 \end{titlepage}
 
 % =========================================================
@@ -105,6 +79,8 @@
 % =========================================================
 % RESUMEN (dentro de abstract)
 % =========================================================
+
+\pagestyle{empty}
 
 \begin{abstract}
 La comunicación dentro de las universidades suele estar fragmentada entre múltiples plataformas externas 
@@ -120,34 +96,15 @@ una plataforma distribuida de comunicación y alertas comunitarias orientada a e
  la hipótesis, la metodología incremental y el cronograma de trabajo para los tres trimestres de Proyecto Terminal.
 \end{abstract}
 
+\newpage
+\tableofcontents
+\newpage
 % =========================================================
 % PALABRAS CLAVE
 % =========================================================
 
-\keywords{notificaciones académicas, sistemas distribuidos, publish-subscribe, Apache Kafka, Flutter, usabilidad}
-
-\begin{CCSXML}
-<ccs2012>
- <concept>
-  <concept_id>10003120.10003121.10003122</concept_id>
-  <concept_desc>Human-centered computing~Collaborative and social computing systems and tools</concept_desc>
-  <concept_significance>500</concept_significance>
- </concept>
- <concept>
-  <concept_id>10002978.10003022</concept_id>
-  <concept_desc>Security and privacy~Management and access control</concept_desc>
-  <concept_significance>300</concept_significance>
- </concept>
-</ccs2012>
-\end{CCSXML}
-
-\ccsdesc[500]{Human-centered computing~Collaborative and social computing systems and tools}
-\ccsdesc[300]{Security and privacy~Management and access control}
-
-\maketitle
-
 \setcounter{page}{1}
-
+\pagestyle{plain}
 % =========================================================
 % SECCIONES DEL PROTOCOLO (modular)
 % =========================================================

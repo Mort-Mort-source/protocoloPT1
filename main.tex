@@ -6,7 +6,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[spanish,es-lcroman]{babel}
+\usepackage[spanish,es-lcroman,es-tabla]{babel}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{array}
@@ -26,6 +26,7 @@
 \title{Plataforma distribuida de comunicación y alertas comunitarias para entornos universitarios (Noti Uam)}
 \author{Aaron Rodrigo Ramos Reyes}
 \date{2026}
+
 
 % =========================================================
 % DOCUMENTO
@@ -81,7 +82,7 @@
 % =========================================================
 
 \pagestyle{empty}
-
+\vfill
 \begin{abstract}
 La comunicación dentro de las universidades suele estar fragmentada entre múltiples plataformas externas 
 (Foros, redes sociales, correo institucional), lo que provoca baja visibilidad de eventos académicos, 
@@ -96,9 +97,24 @@ una plataforma distribuida de comunicación y alertas comunitarias orientada a e
  la hipótesis, la metodología incremental y el cronograma de trabajo para los tres trimestres de Proyecto Terminal.
 \end{abstract}
 
+\vskip 3cm
+
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract}
+University communication is often fragmented across multiple external platforms such as forums, social networks, and institutional email, which reduces the visibility of academic events, promotes misinformation, and makes it difficult to discover relevant channels. This project presents \textbf{Noti Uam}, a distributed platform for community communication and alerts designed for university environments. The system is based on a distributed \textit{publish-subscribe} architecture that enables thematic channels, open subscription, and real-time notifications. The proposed implementation includes a Spring Boot backend, Apache Kafka for event streaming, PostgreSQL and Redis for persistence and caching, and a cross-platform mobile application developed with Flutter. The overall goal is to design and build a scalable, usable, and accessible solution that improves the dissemination of academic, cultural, and community information within UAM Cuajimalpa. This document outlines the problem statement, theoretical foundations, state of the art, objectives, hypothesis, incremental methodology, and work schedule for the three terms of the Project Terminal.\par
+\medskip
+\noindent\textbf{Keywords:} distributed systems, publish-subscribe, Apache Kafka, Flutter, PostgreSQL, Redis, real-time notifications, mobile applications.
+\end{abstract}
+
+
+
 \newpage
 \tableofcontents
 \newpage
+
+
+
+
 % =========================================================
 % PALABRAS CLAVE
 % =========================================================

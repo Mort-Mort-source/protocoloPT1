@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 JUL 2026 16:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 JUL 2026 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,46 +395,100 @@ Package caption Info: float package is loaded.
  Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count328
+\Gm@cntv=\count329
+\c@Gm@tempcnt=\count330
+\Gm@bindingoffset=\dimen281
+\Gm@wd@mp=\dimen282
+\Gm@odd@mp=\dimen283
+\Gm@even@mp=\dimen284
+\Gm@layoutwidth=\dimen285
+\Gm@layoutheight=\dimen286
+\Gm@layouthoffset=\dimen287
+\Gm@layoutvoffset=\dimen288
+\Gm@dimlist=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count328
+\g__graphics_track_int=\count331
 \l__pdf_internal_box=\box70
-\g__pdf_backend_annotation_int=\count329
-\g__pdf_backend_link_int=\count330
+\g__pdf_backend_annotation_int=\count332
+\g__pdf_backend_link_int=\count333
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(62.59596pt, 489.10307pt, 62.59596pt)
+* v-part:(T,H,B)=(62.59596pt, 669.77806pt, 62.59596pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=489.10307pt
+* \textheight=669.77806pt
+* \oddsidemargin=-9.67403pt
+* \evensidemargin=-9.67403pt
+* \topmargin=-46.67403pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 File: imagenes/logo_uam.png Graphic file (type bmp)
 <imagenes/logo_uam.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 60.
+(Font)              <10.95> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 61.
 
 
 [1
@@ -455,60 +509,29 @@ LaTeX Info: Redefining \% on input line 1.
 [3] (./sections/01_introduccion.tex
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
-
-Overfull \hbox (5.27327pt too wide) in paragraph at lines 15--16
-[]\T1/lmr/bx/n/10.95 Dificultad pa-ra des-cu-brir con-te-ni-do: \T1/lmr/m/n/10.95 En pla-ta-for-mas co-mo WhatsApp,
- []
-
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
-
-
-[1]
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 
-Overfull \hbox (14.42941pt too wide) in paragraph at lines 26--27
-\T1/lmr/m/n/10.95 do-res, ga-ran-ti-zan-do es-ca-la-bi-li-dad y en-tre-ga efi-cien-te de even-tos [[],
- []
 
+[1]) (./sections/02_marco_teorico.tex
 
-Overfull \hbox (2.13832pt too wide) in paragraph at lines 26--27
-[]\T1/lmr/m/n/10.95 ]. Sin em-bar-go, muy po-cas pla-ta-for-mas uni-
- []
+[2]
+Missing character: There is no “ ("201C) in font ec-lmr10!
+Missing character: There is no ” ("201D) in font ec-lmr10!
 
-
-
-[2]) (./sections/02_marco_teorico.tex
 
 [3]
-Missing character: There is no “ ("201C) in font ec-lmr10!
-Missing character: There is no ” ("201D) in font ec-lmr10!
-
 
 [4]
-
-[5]
-Overfull \hbox (99.77675pt too wide) in paragraph at lines 67--68
-\T1/lmr/m/n/10.95 co-mún en sis-te-mas dis-tri-bui-dos con re-qui-si-tos de ba-ja la-ten-cia [[]]. 
- []
-
-
-
-[6]
-Overfull \hbox (3.32677pt too wide) in paragraph at lines 81--82
-[]\T1/lmr/m/n/10.95 Integrar no-ti-fi-ca-cio-nes push me-dian-te \T1/lmr/m/it/10.95 Fi-re-ba-se Cloud Mes-sa-ging \T1/lmr/m/n/10.95 (FCM)
- []
-
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 
 
-[7]
-
-[8]
+[5]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -533,22 +556,20 @@ Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 
 
-[9]
+[6]
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 
 
-[10]
-
-[11]
+[7]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 54.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[12]
+[8]
 Overfull \hbox (2.37218pt too wide) in paragraph at lines 76--76
 []|\T1/lmr/bx/n/10 Solución| 
  []
@@ -759,32 +780,15 @@ Underfull \hbox (badness 4792) in paragraph at lines 88--89
  []
 
 
-Overfull \hbox (0.68698pt too wide) in paragraph at lines 98--99
-[]\T1/lmr/bx/n/10.95 Ninguna de las so-lu-cio-nes ge-ne-ra-les \T1/lmr/m/n/10.95 (WhatsApp, Te-le-gram, Slack)
+
+[9]) (./sections/04_objetivos.tex
+Overfull \hbox (71.59747pt too wide) in paragraph at lines 11--12
+\T1/lmr/m/n/10.95 con-jun-to de ac-ti-vi-da-des téc-ni-cas y a las tec-no-lo-gías se-lec-cio-na-das en el mar-co teó-ri-co [[],
  []
 
 
 
-[13]) (./sections/04_objetivos.tex
-Overfull \hbox (0.84192pt too wide) in paragraph at lines 14--15
-[]\T1/lmr/bx/n/10.95 Diseñar una ar-qui-tec-tu-ra dis-tri-bui-da \T1/lmr/m/n/10.95 ba-sa-da en el mo-de-lo \T1/lmr/m/it/10.95 publish-
- []
-
-
-
-[14]
-Overfull \hbox (47.8348pt too wide) in paragraph at lines 16--17
-\T1/lmr/m/n/10.95 [[]], y \T1/lmr/m/it/10.95 JWT \T1/lmr/m/n/10.95 pa-ra au-ten-ti-ca-ción se-gu-ra de usua-rios [[]]. 
- []
-
-
-Overfull \hbox (32.89168pt too wide) in paragraph at lines 18--19
-\T1/lmr/m/n/10.95 orien-ta-dos al en-torno uni-ver-si-ta-rio [[], []]. 
- []
-
-
-
-[15]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 \T1/lmr/m/n/10 [[]], sis-
  []
@@ -849,43 +853,29 @@ Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no “ ("201C) in font ec-lmri10!
 Missing character: There is no ” ("201D) in font ec-lmri10!
+Excluding 'comment' comment.) (./sections/06_metodologia.tex
 
+[11]
 
-[16] Excluding 'comment' comment.) (./sections/06_metodologia.tex
+[12]
 
-[17]
-Overfull \hbox (9.31854pt too wide) in paragraph at lines 21--22
-\T1/lmr/m/n/10.95 dos), dis-po-ni-bi-li-dad (99,9$ $%), es-ca-la-bi-li-dad (1000 even-tos/segundo),
+[13]
+Overfull \hbox (60.89162pt too wide) in paragraph at lines 104--105
+[]\T1/lmr/bx/n/10.95 Entregables\T1/lmr/m/n/10.95 : Có-di-go fuen-te Flut-ter, ar-chi-vo \T1/lmtt/m/n/10.95 google-services.json \T1/lmr/m/n/10.95 (An-dro-id), \T1/lmtt/m/n/10.95 GoogleService-Info.plist
  []
 
 
 
-[18]
+[14]
 
-[19]
-Overfull \hbox (3.93582pt too wide) in paragraph at lines 102--103
-[]\T1/lmr/m/n/10.95 Integrar no-ti-fi-ca-cio-nes push con Fi-re-ba-se Cloud Mes-sa-ging (FCM). 
- []
-
-
-
-[20]
-Overfull \hbox (3.10568pt too wide) in paragraph at lines 105--106
-[]\T1/lmr/bx/n/10.95 Herramientas\T1/lmr/m/n/10.95 : An-dro-id Stu-dio, VS Co-de, Flut-ter SDK, pa-que-te \T1/lmtt/m/n/10.95 http\T1/lmr/m/n/10.95 ,
- []
-
-
-
-[21]
-
-[22]
+[15]
 File: imagenes/metodologia_flujo.png Graphic file (type bmp)
 <imagenes/metodologia_flujo.png>
 File: imagenes/arquitectura_componentes.png Graphic file (type bmp)
 <imagenes/arquitectura_componentes.png>
 
 
-[23]
+[16]
 File: imagenes/secuencia_publicacion.png Graphic file (type bmp)
 <imagenes/secuencia_publicacion.png>
 File: imagenes/actividades_usabilidad.png Graphic file (type bmp)
@@ -1147,45 +1137,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
 
 
-[24]
+[17]
 
-[25]
-Overfull \vbox (48.99971pt too high) has occurred while \output is active []
-
-
-
-[26]) (./sections/07_cronograma.tex
+[18]) (./sections/07_cronograma.tex
 Missing character: There is no , ("2C) in font nullfont!
-
-
-[27]
 Missing character: There is no – ("2013) in font ec-lmbx10!
 Missing character: There is no – ("2013) in font ec-lmbx10!
-
-
-[28]
 Missing character: There is no – ("2013) in font ec-lmbx10!
 Missing character: There is no – ("2013) in font ec-lmr10!
 ) (./main.bbl
-Underfull \hbox (badness 1983) in paragraph at lines 58--67
-[]\T1/lmr/m/n/10.95 Luis A. Cas-tro and Mar-ce-la D. Ro-drí-
- []
 
+[19]
 
-Underfull \hbox (badness 2564) in paragraph at lines 58--67
-\T1/lmr/m/n/10.95 A. C., Mé-xi-co.   $\T1/lmtt/m/n/10.95 https : / / amexcomp . mx / media / publicaciones /
- []
+[20])
 
-
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 117--123
-\T1/lmtt/m/n/10.95 https : / / docs . spring . io / spring-[]boot / docs / current / reference /
- []
-
-)
-
-[30] (./main.aux
+[21] (./main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -1193,14 +1159,18 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 18062 strings out of 473835
- 380054 string characters out of 5731947
- 819667 words of memory out of 5000000
- 40823 multiletter control sequences out of 15000+600000
+ 18623 strings out of 473835
+ 388548 string characters out of 5731947
+ 833322 words of memory out of 5000000
+ 41374 multiletter control sequences out of 15000+600000
  603729 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,105p,873b,1038s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (34 pages).
+Output written on main.pdf (25 pages).

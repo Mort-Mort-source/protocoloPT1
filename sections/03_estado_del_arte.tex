@@ -2,7 +2,7 @@
 
 \subsection{Introducción}
 
-El Estado del Arte tiene como objetivo revisar y analizar las soluciones existentes —tanto generales como específicas— que abordan problemáticas similares a las que motivan el desarrollo de \textbf{Noti Uam}. Este análisis permite identificar las fortalezas y limitaciones de cada enfoque, así como detectar áreas de oportunidad que justifiquen una nueva propuesta. Al final de la sección se presenta una tabla comparativa que resume las características clave de las soluciones revisadas, y se extraen conclusiones que orientan el diseño de la plataforma propuesta.
+El Estado del Arte tiene como objetivo revisar y analizar las soluciones existentes —tanto generales como específicas— que abordan problemáticas similares a las que motivan el desarrollo de \textbf{Noti Uam}. Este análisis permite identificar las fortalezas y limitaciones de cada enfoque, así como detectar áreas de oportunidad que justifiquen una nueva propuesta. Al final de la sección se presenta una tabla comparativa (Tabla \ref{tab:comparativa}) que resume las características clave de las soluciones revisadas, y se extraen conclusiones que orientan el diseño de la plataforma propuesta.
 
 \subsection{Soluciones generales de mensajería y notificaciones}
 
@@ -62,16 +62,15 @@ Si bien UAM App cumple una función valiosa como canal de consulta administrativ
 \end{itemize}
 
 Adicionalmente, se ha observado que la aplicación ya no se encuentra disponible en las tiendas oficiales de aplicaciones (Play Store), lo que limita su acceso y actualización. Por tanto, UAM App no satisface la necesidad identificada en este proyecto, lo que refuerza la pertinencia de desarrollar una plataforma específica como \textbf{Noti Uam}.
+
 \subsection{Tabla comparativa}
 
-A continuación se presenta una tabla que compara las soluciones analizadas según criterios relevantes para el proyecto: apertura de canales, modelo de notificaciones, arquitectura subyacente, usabilidad reportada y capacidad de integración institucional.
+A continuación se presenta la Tabla \ref{tab:comparativa}, que compara las soluciones analizadas según criterios relevantes para el proyecto: apertura de canales, modelo de notificaciones, arquitectura subyacente, usabilidad reportada y capacidad de integración institucional.
 
 \begin{table}[H]
 \centering
-\caption{Comparación de soluciones existentes}
-\label{tab:comparativa}
 \small
-\begin{tabular}{|p{1.4cm}|p{1.8cm}|p{1.5cm}|p{1.8cm}|p{1.8cm}|}
+\begin{tabular}{|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
 \hline
 \textbf{Solución} & \textbf{Canales abiertos} & \textbf{Notificaciones en tiempo real} & \textbf{Arquitectura distribuida} & \textbf{Integración institucional} \\
 \hline
@@ -88,6 +87,8 @@ Apps institucionales & No (avisos unidireccionales) & Parcial (pull o push bási
 \textbf{Noti Uam (propuesta)} & \textbf{Sí (canales temáticos públicos)} & \textbf{Sí (pub-sub con Kafka)} & \textbf{Distribuida (microservicios)} & \textbf{Sí (JWT, SSO planeado)} \\
 \hline
 \end{tabular}
+\caption{Comparación de soluciones existentes}
+\label{tab:comparativa}
 \end{table}
 
 \subsection{Crítica y conclusiones del Estado del Arte}

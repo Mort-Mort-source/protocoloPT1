@@ -161,28 +161,28 @@ A continuación se presentan los diagramas clave que ilustran tanto el flujo met
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.20\textwidth]{imagenes/metodologia_flujo.png}
+\includegraphics[width=0.23\textwidth]{imagenes/metodologia_flujo.png}
 \caption{Flujo metodológico de las fases incrementales. Las flechas de retroalimentación indican ciclos de mejora.}
 \label{fig:metodologia_flujo}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.30\textwidth]{imagenes/arquitectura_componentes.png}
+\includegraphics[width=0.65\textwidth]{imagenes/arquitectura_componentes.png}
 \caption{Arquitectura de componentes de Noti Uam. El API Gateway recibe peticiones, publica eventos en Kafka; el Worker consume y envía notificaciones push.}
 \label{fig:arquitectura}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.30\textwidth]{imagenes/secuencia_publicacion.png}
+\includegraphics[width=0.65\textwidth]{imagenes/secuencia_publicacion.png}
 \caption{Secuencia de publicación de un aviso y entrega de notificación push a suscriptores.}
 \label{fig:secuencia}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.35\textwidth]{imagenes/actividades_usabilidad.png}
+\includegraphics[width=0.45\textwidth]{imagenes/actividades_usabilidad.png}
 \caption{Actividades para las pruebas de usabilidad con estudiantes.}
 \label{fig:usabilidad}
 \end{figure}
@@ -193,10 +193,8 @@ La siguiente tabla identifica los principales riesgos técnicos y organizacional
 
 \begin{table}[H]
 \centering
-\caption{Riesgos y planes de mitigación}
-\label{tab:riesgos}
 \small
-\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|}
+\begin{tabular}{|p{5cm}|p{5cm}|p{5cm}|}
 \hline
 \textbf{Riesgo} & \textbf{Impacto} & \textbf{Mitigación} \\
 \hline
@@ -211,6 +209,8 @@ Problemas de compatibilidad entre Flutter y versiones de iOS/Android & Fallos en
 Sobrecarga de trabajo en el trimestre & Retraso en entregas & Priorizar funcionalidades críticas (MVP); aplicar metodología incremental para entregar al menos un prototipo funcional. \\
 \hline
 \end{tabular}
+\caption{Riesgos y planes de mitigación}
+\label{tab:riesgos}
 \end{table}
 
 \subsection{Herramientas de desarrollo y colaboración}

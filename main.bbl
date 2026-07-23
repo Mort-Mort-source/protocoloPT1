@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{11}
+\begin{thebibliography}{10}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -42,14 +42,6 @@
 \bibfield{author}{\bibinfo{person}{María~Guadalupe Bucheli}.} \bibinfo{year}{2020}\natexlab{}.
 \newblock \bibinfo{booktitle}{\emph{WhatsApp como herramienta de comunicación en estudiantes universitarios: caso de la Universidad Autónoma del Estado de Hidalgo}}.
 \newblock \bibinfo{type}{Reporte técnico}. \bibinfo{institution}{Universidad Autónoma del Estado de Hidalgo}.
-\newblock
-
-
-\bibitem[Carlson(2013)]%
-        {carlson2013redis}
-\bibfield{author}{\bibinfo{person}{Josiah~L. Carlson}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Redis in Action}}.
-\newblock \bibinfo{publisher}{Manning Publications}, \bibinfo{address}{Shelter Island, NY}.
 \newblock
 
 

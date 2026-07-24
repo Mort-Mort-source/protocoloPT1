@@ -1,133 +1,268 @@
-%%% -*-BibTeX-*-
-%%% Do NOT edit. File created by BibTeX with style
-%%% ACM-Reference-Format-Journals [18-Jan-2012].
+\begin{thebibliography}{}
 
-\begin{thebibliography}{10}
-
-%%% ====================================================================
-%%% NOTE TO THE USER: you can override these defaults by providing
-%%% customized versions of any of these macros before the \bibliography
-%%% command.  Each of them MUST provide its own final punctuation,
-%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
-%%% do not use final punctuation, in order to avoid confusing it with
-%%% the Web address.
-%%%
-%%% To suppress output of a particular field, define its macro to expand
-%%% to an empty string, or better, \unskip, like this:
-%%%
-%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
-%%%
-%%% \def \showDOI #1{\unskip}           % plain TeX syntax
-%%%
-%%% ====================================================================
-
-\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
-\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
-\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
-\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
-\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
-\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
-\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
-\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
-\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
-% The following commands are used for tagged output and should be
-% invisible to TeX
-\providecommand\bibfield[2]{#2}
-\providecommand\bibinfo[2]{#2}
-\providecommand\natexlab[1]{#1}
-\providecommand\showeprint[2][]{arXiv:#2}
-
-\bibitem[Bucheli(2020)]%
-        {bucheli2020whatsapp}
-\bibfield{author}{\bibinfo{person}{María~Guadalupe Bucheli}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{WhatsApp como herramienta de comunicación en estudiantes universitarios: caso de la Universidad Autónoma del Estado de Hidalgo}}.
-\newblock \bibinfo{type}{Reporte técnico}. \bibinfo{institution}{Universidad Autónoma del Estado de Hidalgo}.
+\bibitem [\protect \citeauthoryear {%
+Bucheli%
+}{%
+Bucheli%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+bucheli2020whatsapp}
+\APACinsertmetastar {%
+bucheli2020whatsapp}%
+\begin{APACrefauthors}%
+Bucheli, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-
-
-\bibitem[Castro and Rodríguez(2020)]%
-        {amexcomp2020ihc}
-\bibfield{editor}{\bibinfo{person}{Luis~A. Castro} {and} \bibinfo{person}{Marcela~D. Rodríguez}} (Eds.). \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Interacción Humano-Computadora y Aplicaciones en México} (\bibinfo{edition}{2nd} ed.)}.
-\newblock \bibinfo{publisher}{Academia Mexicana de Computación, A. C.}, \bibinfo{address}{México}.
+\APACrefYearMonthDay{2020}{}{}.
 \newblock
-\showISBNx{978-607-98941-15}
-\urldef\tempurl%
-\url{https://amexcomp.mx/media/publicaciones/int-humano-comp-apps.pdf}
-\showURL{%
-\tempurl}
-
-
-\bibitem[Coulouris et~al\mbox{.}(2011)]%
-        {coulouris2011distributed}
-\bibfield{author}{\bibinfo{person}{George Coulouris}, \bibinfo{person}{Jean Dollimore}, {and} \bibinfo{person}{Tim Kindberg}.} \bibinfo{year}{2011}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Distributed Systems: Concepts and Design} (\bibinfo{edition}{5th} ed.)}.
-\newblock \bibinfo{publisher}{Addison-Wesley}, \bibinfo{address}{Boston, MA}.
+\APACrefbtitle {WhatsApp como herramienta de comunicación en estudiantes
+  universitarios: caso de la Universidad Autónoma del Estado de Hidalgo}
+  {Whatsapp como herramienta de comunicación en estudiantes universitarios:
+  caso de la universidad autónoma del estado de hidalgo}\ \APACbVolEdTR
+  {}{Reporte técnico}.
 \newblock
+\APACaddressInstitution{}{Universidad Autónoma del Estado de Hidalgo}.
+\PrintBackRefs{\CurrentBib}
 
-
-\bibitem[Group(2024)]%
-        {postgresql2024docs}
-\bibfield{author}{\bibinfo{person}{PostgreSQL Global~Development Group}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \bibinfo{title}{PostgreSQL 16 Documentation}.
-\newblock \bibinfo{howpublished}{\url{https://www.postgresql.org/docs/16/}}.
+\bibitem [\protect \citeauthoryear {%
+Castro%
+\ \BBA {} Rodríguez%
+}{%
+Castro%
+\ \BBA {} Rodríguez%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+amexcomp2020ihc}
+\APACinsertmetastar {%
+amexcomp2020ihc}%
+\begin{APACrefauthors}%
+Castro, L\BPBI A.%
+\BCBT {}\ \BBA {} Rodríguez, M\BPBI D.%
+\end{APACrefauthors}%
+\ (\BEDS).
+\unskip\
 \newblock
+\APACrefYear{2020}.
 \newblock
-\shownote{Documentación oficial de PostgreSQL}.
-
-
-\bibitem[Jones et~al\mbox{.}(2015)]%
-        {jwt2015rfc}
-\bibfield{author}{\bibinfo{person}{M. Jones}, \bibinfo{person}{J. Bradley}, {and} \bibinfo{person}{N. Sakimura}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{{JSON Web Token (JWT)}}}.
-\newblock \bibinfo{type}{RFC} 7519. \bibinfo{institution}{Internet Engineering Task Force (IETF)}.
+\APACrefbtitle {Interacción Humano-Computadora y Aplicaciones en México}
+  {Interacción humano-computadora y aplicaciones en méxico}\
+  (\PrintOrdinal{2nd}\ \BEd).
 \newblock
-
-
-\bibitem[Kreps et~al\mbox{.}(2017)]%
-        {kafka2017streaming}
-\bibfield{author}{\bibinfo{person}{Jay Kreps}, \bibinfo{person}{Neha Narkhede}, {and} \bibinfo{person}{Jun Rao}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \bibinfo{title}{Apache Kafka: A Distributed Streaming Platform}.
-\newblock \bibinfo{howpublished}{\url{https://kafka.apache.org/documentation/}}.
+\APACaddressPublisher{México}{Academia Mexicana de Computación, A. C.}
 \newblock
+\begin{APACrefURL}
+  \url{https://amexcomp.mx/media/publicaciones/int-humano-comp-apps.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Coulouris%
+, Dollimore%
+\BCBL {}\ \BBA {} Kindberg%
+}{%
+Coulouris%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+coulouris2011distributed}
+\APACinsertmetastar {%
+coulouris2011distributed}%
+\begin{APACrefauthors}%
+Coulouris, G.%
+, Dollimore, J.%
+\BCBL {}\ \BBA {} Kindberg, T.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\shownote{Documentación oficial de Apache Kafka}.
-
-
-\bibitem[LLC(2024)]%
-        {flutter2024docs}
-\bibfield{author}{\bibinfo{person}{Google LLC}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \bibinfo{title}{Flutter Documentation}.
-\newblock \bibinfo{howpublished}{\url{https://docs.flutter.dev/}}.
+\APACrefYear{2011}.
 \newblock
+\APACrefbtitle {Distributed Systems: Concepts and Design} {Distributed systems:
+  Concepts and design}\ (\PrintOrdinal{5th}\ \BEd).
 \newblock
-\shownote{Documentación oficial de Flutter}.
+\APACaddressPublisher{Boston, MA}{Addison-Wesley}.
+\PrintBackRefs{\CurrentBib}
 
-
-\bibitem[Software(2023)]%
-        {spring2023boot}
-\bibfield{author}{\bibinfo{person}{Pivotal Software}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \bibinfo{title}{Spring Boot Reference Guide}.
-\newblock \bibinfo{howpublished}{\url{https://docs.spring.io/spring-boot/docs/current/reference/html/}}.
+\bibitem [\protect \citeauthoryear {%
+Group%
+}{%
+Group%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+postgresql2024docs}
+\APACinsertmetastar {%
+postgresql2024docs}%
+\begin{APACrefauthors}%
+Group, P\BPBI G\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
-\shownote{Documentación oficial de Spring Boot}.
-
-
-\bibitem[Tanenbaum and Van~Steen(2023)]%
-        {tanenbaum2023distributed}
-\bibfield{author}{\bibinfo{person}{Andrew~S. Tanenbaum} {and} \bibinfo{person}{Maarten Van~Steen}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Distributed Systems: Principles and Paradigms} (\bibinfo{edition}{4th} ed.)}.
-\newblock \bibinfo{publisher}{Prentice Hall}, \bibinfo{address}{Upper Saddle River, NJ}.
+\APACrefbtitle {PostgreSQL 16 Documentation.} {Postgresql 16 documentation.}
 \newblock
-
-
-\bibitem[Tarkoma(2012)]%
-        {tarkoma2012publish}
-\bibfield{author}{\bibinfo{person}{Sasu Tarkoma}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Publish/Subscribe Systems: Design and Principles}}.
-\newblock \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{address}{Chichester, UK}.
+\APAChowpublished {\url{https://www.postgresql.org/docs/16/}}.
 \newblock
+\APACrefnote{Documentación oficial de PostgreSQL}
+\PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Jones%
+, Bradley%
+\BCBL {}\ \BBA {} Sakimura%
+}{%
+Jones%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+jwt2015rfc}
+\APACinsertmetastar {%
+jwt2015rfc}%
+\begin{APACrefauthors}%
+Jones, M.%
+, Bradley, J.%
+\BCBL {}\ \BBA {} Sakimura, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{May}{}.
+\newblock
+\APACrefbtitle {{JSON Web Token (JWT)}} {{JSON Web Token (JWT)}}\ \APACbVolEdTR
+  {}{RFC\ \BNUM\ 7519}.
+\newblock
+\APACaddressInstitution{}{Internet Engineering Task Force (IETF)}.
+\newblock
+\APAChowpublished {\url{https://tools.ietf.org/html/rfc7519}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kreps%
+, Narkhede%
+\BCBL {}\ \BBA {} Rao%
+}{%
+Kreps%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+kafka2017streaming}
+\APACinsertmetastar {%
+kafka2017streaming}%
+\begin{APACrefauthors}%
+Kreps, J.%
+, Narkhede, N.%
+\BCBL {}\ \BBA {} Rao, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Apache Kafka: A Distributed Streaming Platform.} {Apache kafka:
+  A distributed streaming platform.}
+\newblock
+\APAChowpublished {\url{https://kafka.apache.org/documentation/}}.
+\newblock
+\APACrefnote{Documentación oficial de Apache Kafka}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+LLC%
+}{%
+LLC%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+flutter2024docs}
+\APACinsertmetastar {%
+flutter2024docs}%
+\begin{APACrefauthors}%
+LLC, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Flutter Documentation.} {Flutter documentation.}
+\newblock
+\APAChowpublished {\url{https://docs.flutter.dev/}}.
+\newblock
+\APACrefnote{Documentación oficial de Flutter}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Software%
+}{%
+Software%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+spring2023boot}
+\APACinsertmetastar {%
+spring2023boot}%
+\begin{APACrefauthors}%
+Software, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Spring Boot Reference Guide.} {Spring boot reference guide.}
+\newblock
+\APAChowpublished
+  {\url{https://docs.spring.io/spring-boot/docs/current/reference/html/}}.
+\newblock
+\APACrefnote{Documentación oficial de Spring Boot}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tanenbaum%
+\ \BBA {} Van~Steen%
+}{%
+Tanenbaum%
+\ \BBA {} Van~Steen%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+tanenbaum2023distributed}
+\APACinsertmetastar {%
+tanenbaum2023distributed}%
+\begin{APACrefauthors}%
+Tanenbaum, A\BPBI S.%
+\BCBT {}\ \BBA {} Van~Steen, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2023}.
+\newblock
+\APACrefbtitle {Distributed Systems: Principles and Paradigms} {Distributed
+  systems: Principles and paradigms}\ (\PrintOrdinal{4th}\ \BEd).
+\newblock
+\APACaddressPublisher{Upper Saddle River, NJ}{Prentice Hall}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tarkoma%
+}{%
+Tarkoma%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+tarkoma2012publish}
+\APACinsertmetastar {%
+tarkoma2012publish}%
+\begin{APACrefauthors}%
+Tarkoma, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {Publish/Subscribe Systems: Design and Principles}
+  {Publish/subscribe systems: Design and principles}.
+\newblock
+\APACaddressPublisher{Chichester, UK}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

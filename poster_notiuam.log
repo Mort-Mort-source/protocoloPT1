@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  15 JUL 2026 10:48
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  23 JUL 2026 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Lilith/Academic/UAM/UAMC/25-O/Alumni/Aaron/protocoloPT1/poster_notiuam
-(/Lilith/Academic/UAM/UAMC/25-O/Alumni/Aaron/protocoloPT1/poster_notiuam.tex
+**/Lilith/Academic/UAM/UAMC/Alumni/Aaron/protocoloPT1/poster_notiuam
+(/Lilith/Academic/UAM/UAMC/Alumni/Aaron/protocoloPT1/poster_notiuam.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1131,11 +1131,11 @@ Package rerunfilecheck Info: File `poster_notiuam.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31107 strings out of 473835
- 625197 string characters out of 5731947
+ 625182 string characters out of 5731947
  1158609 words of memory out of 5000000
  53541 multiletter control sequences out of 15000+600000
  658004 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,16n,123p,869b,832s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,864b,832s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on poster_notiuam.pdf (1 page).
